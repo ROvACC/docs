@@ -1,0 +1,15 @@
+{
+  "name": "rovacc-docs",
+  "version": "1.0.0",
+  "description": "ROvACC Docs in one place",
+  "main": "index.js",
+  "scripts": {
+    "build": "honkit build ./ ./build --log=debug",
+    "serve": "honkit serve ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "honkit": "^4.0.0"
+  }
+}
