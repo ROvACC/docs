@@ -4,8 +4,8 @@
   "description": "ROvACC Docs in one place",
   "main": "index.js",
   "scripts": {
-    "build": "honkit build ./src ./build --log=debug",
-    "serve": "honkit serve ./src"
+    "build": "honkit build ./ ./build --log=debug",
+    "serve": "honkit serve ./"
   },
   "author": "",
   "license": "ISC",
