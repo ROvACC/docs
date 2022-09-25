@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "honkit build ./ --log=debug --debug",
-    "serve": "honkit serve",
+    "build": "honkit build ./src ./build --log=debug",
+    "serve": "honkit serve ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
