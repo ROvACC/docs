@@ -28,19 +28,13 @@ in the diagram below:
 The Y axis represents longitudinal; the X axis represents lateral and
 the Z axis represents vertical.
 
-<div class="important">
 
-<div class="title">
+**Important**
 
-Important
 
-</div>
-
-| Two aircraft are separated if **AT LEAST ONE** of these distances is
-maintained. | **Any two aircraft must fall within one of the separation
-cases to be properly separated.**
-
-</div>
+> Two aircraft are separated if **AT LEAST ONE** of these distances is maintained.
+>
+> **Any two aircraft must fall within one of the separation cases to be properly separated.**
 
 In the case of lateral separation, the minima are declared as a distance
 in nautical miles (NM) and also in terms of angular difference measured
@@ -71,21 +65,14 @@ airspace.
 **ATCO** - Air Traffic Controller Officer  
 **NM** - Nautical Miles
 
-<div class="note">
 
-<div class="title">
+**Note**
 
-Note
-
-</div>
-
-Relative tracks:
-
-α - the angle between aircraft tracks  
-**SS** - same route strict - α ≤ 10⁰  
-**SA** - same route approximate - 10⁰ \< α ≤ 20⁰
-
-</div>
+> Relative tracks:
+>
+> α - the angle between aircraft tracks  
+> **SS** - same route strict - α ≤ 10⁰  
+> **SA** - same route approximate - 10⁰ < α ≤ 20⁰
 
 ## Minimum Radar Separation in Area Control
 
@@ -101,11 +88,11 @@ the same route, in the same direction, at the same level, in cruise, is
     is between 0° and 20°.
 3.  The distance between aircraft is measured as in the diagram below:
 
-![image](/images/radar-separation-2.png)
+![image](../images/radar-separation-2.png)
 
-![image](/images/radar-separation-3.png)
+![image](../images/radar-separation-3.png)
 
-![image](/images/radar-separation-4.png)
+![image](../images/radar-separation-4.png)
 
 The longitudinal separation in cruise flight shall be maintained by
 using a combination of distance monitoring and speed control. All
@@ -116,13 +103,13 @@ this.
 The **minimum lateral separation** between two aircraft flying at the
 same flight level, in cruise flight, on parallel tracks is 10 NM:
 
-![image](/images/radar-separation-5.png)
+![image](../images/radar-separation-5.png)
 
 For two aircraft in cruise flight, on the same track, traveling in the
 same direction, at the same level, the flying **parallel offset** should
 be **laterally separated by a minimum** of 10 NM:
 
-![image](/images/radar-separation-6.png)
+![image](../images/radar-separation-6.png)
 
 This separation may only be used after confirmation from the pilot that
 the aircraft is properly equipped for **parallel offset**.
@@ -131,7 +118,7 @@ The **minimum longitudinal separation** between two aircraft flying the
 same route, in the same direction, climbing or descending, at the moment
 passing the occupied flight level, is 10 NM:
 
-![image](/images/radar-separation-7.png)
+![image](../images/radar-separation-7.png)
 
 An **occupied flight level** is one where the Mode C altitude report on
 an aircraft shows it is ±300 feet of the assigned flight level, after 3
@@ -150,7 +137,7 @@ The **minimum longitudinal separation** of two aircraft flying at the
 same flight level or in climb/descent at the time passing the occupied
 flight level, on convergent tracks, is 10 NM
 
-![image](/images/radar-separation-8.png)
+![image](../images/radar-separation-8.png)
 
 The separation distance is measured relative to the convergence point.
 Using the diagram above the separation is D2 - D1 (difference between
@@ -161,7 +148,7 @@ point is not established, then the **minimum lateral separation** of 10
 NM must be established. The lateral distance must be at least 10 NM when
 the aircraft are already on parallel or convergent tracks.
 
-![image](/images/radar-separation-9.png)
+![image](../images/radar-separation-9.png)
 
 The lateral distance is measured between the position of the aircraft in
 front and the track of the following aircraft (see diagram above).
@@ -176,7 +163,7 @@ flight level, is 5 NM.
 The distance is measured between the aircraft closer to the divergence
 point and the track of the other aircraft.
 
-![image](/images/radar-separation-10.png)
+![image](../images/radar-separation-10.png)
 
 This separation may only be used after the pilots report maintaining a
 fixed heading.
@@ -189,20 +176,12 @@ the time of passing the occupied flight level, is 5 NM.
 The lateral distance is the distance between the aircraft closest to the
 divergent point and the track of the other aircraft.
 
-![image](/images/radar-separation-11.png)
+![image](../images/radar-separation-11.png)
 
-<div class="note">
 
-<div class="title">
+**Note**
 
-Note
-
-</div>
-
-This separation may only be used after the pilots report maintaining a
-fixed heading
-
-</div>
+> This separation may only be used after the pilots report maintaining a fixed heading
 
 ### Aircraft on the same route, opposite direction
 
@@ -212,7 +191,7 @@ point, non-radar separation is applicable. The non-radar separation for
 each aircraft is 10 minutes from the point of intersection as shown in
 the diagram below:
 
-![image](/images/radar-separation-12.png)
+![image](../images/radar-separation-12.png)
 
 As this separation is not practical in high traffic situations, the ATCO
 has the duty to seek alternative separation for aircraft looking to
@@ -224,7 +203,7 @@ directions, after it has been observed on the radar screen that the
 plots have passed each other and it is a fact that the plots won't meet
 each other again; the minimum longitudinal separation is 5 NM.
 
-![image](/images/radar-separation-13.png)
+![image](../images/radar-separation-13.png)
 
 ### Lateral radar separation minima for the time passing occupied flight level
 
@@ -233,14 +212,14 @@ same direction, in climb/descent, at the time of passing the occupied
 flight level, is 5 NM. Headings assigned and confirmed by aircraft must
 be parallel or divergent.
 
-![image](/images/radar-separation-14.png)
+![image](../images/radar-separation-14.png)
 
 The minimum lateral separation or aircraft flying on the same route, in
 opposite directions, in climb/descent, at the time of passing the
 occupied flight level, is 5 NM. Headings assigned and confirmed by
 aircraft must be parallel or divergent.
 
-![image](/images/radar-separation-15.png)
+![image](../images/radar-separation-15.png)
 
 ### Vertical separation
 
@@ -276,32 +255,26 @@ of the aircraft.
 The relative track is the difference between tracks of two aircraft and
 defines the movement of aircraft in the horizontal plane.
 
-![image](/images/radar-separation-16.png)
+![image](../images/radar-separation-16.png)
 
-<div class="note">
+> **Note**
+>
+> **SAS** = Same route strict 
+> 
+> **AAS** = Same route approximate 
+> 
+> CA = Sharp convergence 
+>
+> CN = Normal convergence 
+> 
+> AC = Approximate convergence 
+>
+> ASC = Opposite direction approximate 
+>
+> SSC = Opposite direction strict
 
-<div class="title">
 
-Note
-
-</div>
-
-SAS = Same route strict AAS = Same route approximate CA = Sharp
-convergence CN = Normal convergence AC = Approximate convergence ASC =
-Opposite direction approximate SSC = Opposite direction strict
-
-</div>
-
-<div class="tip">
-
-<div class="title">
-
-Tip
-
-</div>
-
-> ROT 551 is flying on track 350° and BAW 036 is flying on track 300°. 
+**Tip**
+> ROT 551 is flying on track 350° and BAW 036 is flying on track 300°.
 > Therefore, the relative track is: 350° - 300° = 50° [or 300° - 350° = -50°].
 > From the circle of intersection chart, the two aircraft are normal convergence (CN).
-
-</div>

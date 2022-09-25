@@ -17,7 +17,7 @@ of departing aircraft which are handed over to Center Control. Arriving
 aircraft are usually handed over to Tower when they have established ILS
 (Instrument Landing System) or when on final for visual approach.
 
-![image](/images/TMA_Bucuresti.jpg)
+![image](../images/TMA_Bucuresti.jpg)
 
 Bucharest Approach have under control TMA Bucuresti airspace which is
 classified as class A airspace where only IFR flights and SVFR are
@@ -40,10 +40,10 @@ by ATC but generally is FL050. Also when the local QNH is greater than
 vertical separation between an aircraft at FL050 on standard QNH
 (1013hPa) and an aircraft at 4000ft on local QNH is less than 1000ft.
 
-Bucharest Approach uses the Callsign LROP\_APP and transmits on
+Bucharest Approach uses the Callsign LROP_APP and transmits on
 frequency 118.250. It's full radio Callsign is “Bucharest Approach”.
 When the main frequency is serviceable it will be used alternative
-position with Callsign LROP\_A\_APP transmitting on frequency 120.600
+position with Callsign LROP_A_APP transmitting on frequency 120.600
 with the same radio Callsign: “Bucharest Approach”.
 
 You have to handoff aircraft to the tower position when aircraft are
@@ -69,7 +69,7 @@ You also can coordinate anytime with a radar position for any aircraft
 using the voice/text communication but also electronic coordination
 using tools from Euroscope.
 
-![image](/images/TMB_sectors.png)
+![image](../images/TMB_sectors.png)
 
 When you log in into Bucharest Approach you should coordinate with Tower
 position (if is online) to know the active runways and also to select
@@ -103,65 +103,37 @@ all necessary explanations for ROMATSA tags.
 
 **TAG Information**
 
-<div class="images">
-
-/images/tag\_taged.png
-
-</div>
+![image](../images/tag_taged.png)
 
 *The pink tag mean that aircraft is not in your airspace but will be
 soon.*
 
-<div class="images">
-
-/images/tag\_cof\_in.png
-
-</div>
+![image](../images/tag_cof_in.png)
 
 *This pink tag with white callsign mean that you recive an handoff from
 other contoller.*
 
-<div class="images">
-
-/images/tag\_assumed.png
-
-</div>
+![image](../images/tag_assumed.png)
 
 *The yellow tag mean that aircraft is assumed by you and you have full
 control for him.*
 
-<div class="images">
-
-/images/tag\_cof\_out.png
-
-</div>
+![image](../images/tag_cof_out.png)
 
 *The yellow tag with pink callsign mean that you initiate a handoff to
 next contoller.*
 
-<div class="images">
-
-/images/tag\_tagged\_no\_entry.png
-
-</div>
+![image](../images/tag_tagged_no_entry.png)
 
 *The grey tag mean that aircraft is not in your airspace and also he
 will never cross you airspace.*
 
-<div class="images">
-
-/images/tag\_uncorelated.png
-
-</div>
+![image](../images/tag_uncorelated.png)
 
 *The grey tag with squawk code instead of callsign mean that the tag in
 uncorelated.*
 
-<div class="images">
-
-/images/tag\_psr.png
-
-</div>
+![image](../images/tag_psr.png)
 
 *The grey line without tag mean that tha aircraft have transponder on
 standby but is recived by a primary radar.*
@@ -391,17 +363,11 @@ mandatory.*
 In these images you have some efficient tips for efficient arrivals in
 TMA Bucharest for LROP for runway 08 and 26 in use:
 
-<div class="images">
 
-/images/TMB\_efficient\_08.png
+![image](../images/TMB_efficient_08.png)
 
-</div>
 
-<div class="images">
-
-/images/TMB\_efficient\_26.png
-
-</div>
+![image](../images/TMB_efficient_26.png)
 
 *These arriving tips can be used after aircraft follow the STAR until
 the shortcut point.*
