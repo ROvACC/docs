@@ -23,7 +23,7 @@ Required separation is described as the minimum distance on each axis of
 the Cartesian system: vertical, longitudinal, and lateral. This is shown
 in the diagram below:
 
-![image](/images/radar-separation-1.png)
+![image](../images/radar-separation-1.png)
 
 The Y axis represents longitudinal; the X axis represents lateral and
 the Z axis represents vertical.
