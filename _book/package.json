@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "honkit build",
+    "build": "honkit build ./ --log=debug --debug",
     "serve": "honkit serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
