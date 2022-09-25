@@ -1,7 +1,7 @@
 {
   "name": "rovacc-docs",
   "version": "1.0.0",
-  "description": "ROvACC Training Docs in one place",
+  "description": "ROvACC Docs in one place",
   "main": "index.js",
   "scripts": {
     "build": "honkit build ./src ./build --log=debug",
