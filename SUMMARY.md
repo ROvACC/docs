@@ -21,3 +21,9 @@
   * [Tower](phraseology/tower.md)
   * [Approach](phraseology/approach.md)
   * [Special conditions](phraseology/miscellaneous.md)
+
+## EuroScope
+  * [Install](euroscope/install.md)
+  * [Sector file](euroscope/update.md)
+  * [Observer Guide](euroscope/observer.md)
+  * [VCCS](euroscope/vccs.md)
