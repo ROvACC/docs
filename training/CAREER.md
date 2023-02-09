@@ -199,9 +199,9 @@ Exception: the students allowed to control LROP_GND (Otopeni Ground) under SOLO 
 **5.4.**       Mentors will manually add themselves to EuroScope before connecting on line 3 or 4 of the ATIS Controller: 
 **Mentoring ICAO_POS**.
 
- 
+**  **
 
-**6.**   **Allowed positions per rating**
+## **6.**   **Allowed positions per rating**
 
 
 <table>
@@ -359,7 +359,7 @@ Exception: the students allowed to control LROP_GND (Otopeni Ground) under SOLO 
 
 **  **
 
-**7. Version Control**
+## **7. Version Control**
 
 
 <table>
