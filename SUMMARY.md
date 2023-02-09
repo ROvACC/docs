@@ -27,3 +27,6 @@
   * [Sector file](euroscope/update.md)
   * [Observer Guide](euroscope/observer.md)
   * [VCCS](euroscope/vccs.md)
+
+## METEO
+  * [METAR](meteo/decode-metar.md)
