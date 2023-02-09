@@ -27,6 +27,23 @@
   * [Sector file](euroscope/update.md)
   * [Observer Guide](euroscope/observer.md)
   * [VCCS](euroscope/vccs.md)
+  
+## Unusual situations
+  * [Intro](emergencies/handle.md)
+  * [TCAS](emergencies/tcas.md)
+  * [Birdstrike](emergencies/birdstrike.md)
+  * [Brake problems](emergencies/brakes.md)
+  * [Communication failure](emergencies/commfa.md)
+  * [Electrical problem](emergenies/electrical.md)
+  * [Emergency descend](emergencies/emgdesc.md)
+  * [Engine failure](emergencies/enginefailure.md)
+  * [Engine or APU on fire](emergencies/engapufire.md)
+  * [Fuel problems](emergencies/lowfuel.md)
+  * [Gear problems](emergencies/gear.md)
+  * [Hydraulic problems](emergencies/hydraulic.md)
+  * [Icing](emergencies/icing.md)
+  * [Pressurisation problems](emergencies/pressurisation.md)
+  * [Smoke or fire in the cockpit](emergencies/smokefirecockpit.md)
 
 ## METEO
   * [METAR](meteo/decode-metar.md)
