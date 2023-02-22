@@ -27,7 +27,7 @@
   * [Sector file](euroscope/update.md)
   * [Observer Guide](euroscope/observer.md)
   * [VCCS](euroscope/vccs.md)
-
+  
 ## Unusual situations
   * [Intro](emergencies/handle.md)
   * [TCAS](emergencies/tcas.md)
@@ -44,3 +44,6 @@
   * [Icing](emergencies/icing.md)
   * [Pressurisation problems](emergencies/pressurisation.md)
   * [Smoke or fire in the cockpit](emergencies/smokefirecockpit.md)
+
+## METEO
+  * [METAR](meteo/decode-metar.md)
