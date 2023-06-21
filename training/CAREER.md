@@ -350,9 +350,19 @@ Exception: the students allowed to control LROP_GND (Otopeni Ground) under SOLO 
    </td>
    <td> 
    </td>
-   <td><strong>LRBB_L_CTR</strong>
+   <td>LRBV_TWR
    </td>
    <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td><strong>LRBB_L_CTR</strong>
+   </td>
+   <td>
    </td>
   </tr>
 </table>
