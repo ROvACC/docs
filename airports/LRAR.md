@@ -8,50 +8,11 @@ Arad Airport, while being an international one, is not an airport regularly oper
 
 ## Frequencies
 
-<table>
-  <tr>
-   <td>Login Call sign
-   </td>
-   <td>CID
-   </td>
-   <td>Call sign
-   </td>
-   <td>Frequency
-   </td>
-  </tr>
-  <tr>
-   <td>LRAR_TWR
-   </td>
-   <td>TAR
-   </td>
-   <td>Arad Tower
-   </td>
-   <td>130.200
-   </td>
-  </tr>
-  <tr>
-   <td>LRAR_APP
-   </td>
-   <td>APA
-   </td>
-   <td>Arad Approach
-   </td>
-   <td>127.250
-   </td>
-  </tr>
-  <tr>
-   <td>LRBB_L_CTR
-   </td>
-   <td>LOM
-   </td>
-   <td>Bucharest Radar
-   </td>
-   <td>122.025
-   </td>
-  </tr>
-</table>
-
-
+| Login Call sign  | CID  | Call sign        | Frequency  |
+|------------------|------|------------------|------------|
+| LRAR_TWR         | TAR  | Arad Tower       | 130.200    |
+| LRAR_APP         | APA  | Arad Approach    | 127.250    |
+| LRBB_L_CTR       | LOM  | Bucharest Radar  | 122.025    |
 
 ## Area of Responsibility
 
@@ -68,71 +29,17 @@ APP is responsible for air traffic service in TMA ARAD, classified as Class C Ai
 The airport has one runway: 09/27.
 
 
-<table>
-  <tr>
-   <td>Config
-   </td>
-   <td>Runway Config
-   </td>
-   <td>Preferred
-   </td>
-  </tr>
-  <tr>
-   <td>1
-   </td>
-   <td>27 DEP
-<p>
-09 ARR
-   </td>
-   <td>YES
-   </td>
-  </tr>
-  <tr>
-   <td>2
-   </td>
-   <td>09 DEP/ARR
-   </td>
-   <td>NO
-   </td>
-  </tr>
-  <tr>
-   <td>3
-   </td>
-   <td>27 DEP/ARR
-   </td>
-   <td>NO
-   </td>
-  </tr>
-</table>
+| Config  | Runway Config  | Preferred  |
+|---------|----------------|------------|
+| 1       | 27 DEP/09 ARR  | YES        |
+| 2       | 09 DEP/ARR     | NO         |
+| 3       | 27 DEP/ARR     | NO         |
 
 
-
-<table>
-  <tr>
-   <td>Runways
-   </td>
-   <td>09
-   </td>
-   <td>27
-   </td>
-  </tr>
-  <tr>
-   <td>Heading
-   </td>
-   <td>090
-   </td>
-   <td>270
-   </td>
-  </tr>
-  <tr>
-   <td>Length
-   </td>
-   <td colspan="2" style="text-align: center">2000 m
-   </td>
-  </tr>
-</table>
-
-
+| Runways  | 09      | 27     |
+|----------|---------|--------|
+| Heading  | 090     | 270    |
+| Length   | 2000 m  | 2000 m |
 
 ## Clearance
 
@@ -153,40 +60,11 @@ Departure Information:
 
 ## Stand assignments
 
-<table>
-  <tr>
-   <td>
-APRON
-   </td>
-   <td>Stand
-   </td>
-   <td>Aircraft
-   </td>
-  </tr>
-  <tr>
-   <td>APRON 2
-   </td>
-   <td>1-2
-   </td>
-   <td>Wingspan &lt; 36 m (Code C)
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >APRON 1
-   </td>
-   <td>3-5
-   </td>
-   <td>Wingspan &lt; 24 m (Code B)
-   </td>
-  </tr>
-  <tr>
-   <td>5
-   </td>
-   <td>Helicopter, GA
-   </td>
-  </tr>
-</table>
-
+| APRON    | Stand           | Aircraft                     |
+|----------|-----------------|------------------------------|
+| APRON 2  | 1-2             | Wingspan < 36 m (Code C)     |
+| APRON 1  | 3-5             | Wingspan < 24 m (Code B)     |
+| 5        | Helicopter, GA  |                              |
 
 
 ## LVP
