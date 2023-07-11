@@ -22,7 +22,9 @@ The main objective that ATC has from the position of Delivery is to issue Cleara
 
 The Delivery controller (abbreviated DEL) is the one who verifies the Flight Plan (abbreviated FPL) - a document that the pilot files in the system so that ATC knows where the pilot intends to navigate their aircraft.
 
-
+| Login Call Sign | Call sign | Frequency | ID |
+| --------------- | --------- | --------- | -- |
+| LROP_DEL | Otopeni Clearance Delivery | 121.950 | DOP |
 
 ## 2. IFR Clearance
 
@@ -70,7 +72,7 @@ The aircraft will take off from Cluj from runway 25 via IRLOX1M:
 
 `IRLOX1M DEPARTURE`
 
-Note: because LROP SID SOKRU1K is a SID from both 08L and 08R, naming the track is mandatory; but in Cluj, IRLOX1M is a procedure used only from runway 25, which means that the explicit read is not mandatory, but it is recommended.
+Note: because LROP SID SOKRU1K is a SID from both 08L and 08R, naming the runway is mandatory; but in Cluj, IRLOX1M is a procedure used only from runway 25, which means that the explicit read is not mandatory, but it is recommended.
 
 ### 2.3. Vectors
 
