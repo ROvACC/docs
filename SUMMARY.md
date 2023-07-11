@@ -12,8 +12,7 @@
   * [C1 - Enroute Controller](training/CONTROLLER_1.md)
 
 ## Airports
-  * [LROP](airports/LROP.md)
-  * [LRBS](airports/LRBS.md)
+  * [LRAR](airports/LRAR.md)
   * [LRBS](airports/LRBS.md)
 
 ## Phraseology
