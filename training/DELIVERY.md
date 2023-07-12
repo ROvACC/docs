@@ -28,7 +28,7 @@ The Delivery controller (abbreviated DEL) is the one who verifies the Flight Pla
 
 ## 2. IFR Clearance
 
-Clearance is the authorization by which the pilot is informed about the point to which he is authorised to fly, the runway for take-off, the route he will follow until the route system, the level or altitude at which he will initially or finally follow and a squawk code.
+Clearance is the authorization by which the pilot is informed about the point to which he is authorised to fly, the runway for take-off, the route they will follow until the route system, the level or altitude at which they will initially or finally follow and a squawk code.
 
 ### 2.1. Clearance limit
 
@@ -88,7 +88,7 @@ If the DEL controller does not find a suitable SID for the flight (according to 
 
 <p style="color:green;">LROP_APP: Released, on runway heading, climb 4000 ft
 
-Notes: since the aircraft takes off from Otopeni and flies to Baneasa, an airport located in the same TMA and at a very short distance, an SID cannot be assigned. In this case, the DEL controller coordinates with LROP_APP (Bucharest Approach) the take-off instructions which, later, the DEL controller will include in the clearance of the aircraft.
+Notes: since the aircraft takes off from Otopeni and flies to Baneasa, an airport located in the same TMA and at a very short distance, a SID cannot be assigned. In this case, the DEL controller coordinates with LROP_APP (Bucharest Approach) the take-off instructions which, later, the DEL controller will include in the clearance of the aircraft.
 
 If the APP or ACC unit is not online, this coordination will not take place, and the pilot will receive instructions from the DEL Controller as follows:
 
@@ -122,7 +122,7 @@ And the second, when there is at least one speed or altitude restriction in the 
 
 The transponder is a device installed in the plane used to identify the aircraft and correlate the target with the flight plan. What you need to know about the transponder is that aircraft are required to use it in controlled airspace and that it can be operated in 3 modes.
 
-Functionality of the transponder: the aircraft is set a code in the transponder, a code that is transmitted to the radar, the radar identifies a position from where a signal is emitted and is transmitted to the CWP (controller work position), where ATC is tasked with identifying the aircraft that displays a certain code and link or correlate the target on the screen with the flight plan related to that aircraft. As a DEL controller, your job is not to identify the aircraft on the radar because you work in a non-radar environment, but only to instruct the pilot to set a certain transponder code.
+Functionality of the transponder: the pilot of the aircraft set a code in the transponder, a code that is transmitted to the radar, the radar identifies a position from where a signal is emitted and is transmitted to the CWP (controller work position), where ATC is tasked with identifying the aircraft that displays a certain code and link or correlate the target on the screen with the flight plan related to that aircraft. As a DEL controller, your job is not to identify the aircraft on the radar because you work in a non-radar environment, but only to instruct the pilot to set a certain transponder code.
 
 There are 4 operating modes of the transponder:
 
@@ -131,12 +131,12 @@ There are 4 operating modes of the transponder:
 3. ModeC: the current position and altitude is send to the radar
 4. ModeS: is the most complicated mode, because in addition to ModeC's transmission capability, ModeS can also transmit other data about the aircraft, such as indicated air speed, mach number or fuel on board.
 
-    Note: In addition to the previously mentioned, a ModeS transponder has the ability to automatically correlate the target with the FPL, which means that it is not necessary to use a unique code compared to other aircraft. Thus, capable aircraft will be assigned squawk code 1000.
+    Note: In addition to the previously mentioned, a ModeS transponder has the ability to automatically correlate the target with the FPL, which means that it is not necessary to use an unique code compared to other aircraft. Thus, capable aircraft will be assigned squawk code 1000.
 
 
 In Romanian airspace, aircraft flying in controlled airspace are required to use a ModeC transponder and use it in ON mode the entire time the aircraft is moving, whether on the apron, taxiway, runway or in the air.
 
-in phraseology, the allocation of the squawk code is done using the following phrase:
+In phraseology, the allocation of the squawk code is done using the following phrase:
 
 `SQUAWK 2710` (squawk two seven one zero)
 
@@ -152,7 +152,7 @@ Note: the code is automatically given by EuroScope for IFR flights after pressin
 
 VFR traffic pattern is the flight that is performed around a runway, being the simplest training for new pilots, but also a maintenance exercise for old pilots, consisting of a "rectangle" around the runway, through which the pilot practices take-off, 4 90 degree turns on the same side and a landing.
 
-For this type of flight, ATC DEL is obliged to transmit to the pilot the runway from which he will take off and execute the traffic pattern, the direction he will turn (left or right), the altitude to climb to, as well as a squawk code.
+For this type of flight, ATC DEL is responsible to transmit to the pilot the runway from which he will take off and execute the traffic pattern, the direction they will turn (left or right), the altitude to climb to, as well as a squawk code.
 
 #### 2. Cross country flight
 
