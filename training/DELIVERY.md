@@ -23,7 +23,7 @@ The main objective that ATC has from the position of Delivery is to issue Cleara
 The Delivery controller (abbreviated DEL) is the one who verifies the Flight Plan (abbreviated FPL) - a document that the pilot files in the system so that ATC knows where the pilot intends to navigate their aircraft.
 
 | Login Call Sign | Call sign | Frequency | ID |
-| --------------- | --------- | --------- | -- |
+| :-------------: | :-------: | :-------: | :--: |
 | LROP_DEL | Otopeni Clearance Delivery | 121.950 | DOP |
 
 ## 2. IFR Clearance
