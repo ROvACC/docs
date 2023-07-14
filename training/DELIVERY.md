@@ -16,7 +16,7 @@ Created by Teodor G Petrică, OPS
 
 The Delivery position is the first ATC position that a pilot usually interacts with when preparing to fly. Some airports do not have a dedicated position for Delivery, its work being delegated to the Ground or Tower controller. 
 
-In the airspace of VATSIM Romania, the only such position is at Henri Coanda International Airport, Bucharest - Otopeni. Although this training is specifically written for the Delivery control position, all this theory can also be used for the Ground or Tower control position, where there is no Delivery or Ground.
+In the airspace of Romania, the only such position is at Henri Coanda International Airport, Bucharest - Otopeni. Although this training is specifically written for the Delivery control position, all this theory can also be used for the Ground or Tower control position, where there is no Delivery or Ground.
 
 The main objective that ATC has from the position of Delivery is to issue Clearances. These are used to give instructions to the pilots immediately after take-off until they reach the en-route system.
 
