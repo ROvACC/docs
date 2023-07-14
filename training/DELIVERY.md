@@ -20,7 +20,7 @@ In the airspace of Romania, the only such position is at Henri Coanda Internatio
 
 The main objective of the Delivery position is to issue Departure Clearances. These are used to give instructions to the pilots immediately after take-off until they reach the en-route system.
 
-The Delivery controller (abbreviated DEL) is the one who verifies the Flight Plan (abbreviated FPL) - a document that the pilot files in the system so that ATC knows where the pilot intends to navigate their aircraft.
+The Delivery controller (DEL) is the one who verifies the Flight Plan (FPL) - a document that the pilot files with VATSIM so ATC knows where the pilot intends to navigate their aircraft.
 
 | Login Call Sign | Call sign | Frequency | ID |
 | :-------------: | :-------: | :-------: | :--: |
