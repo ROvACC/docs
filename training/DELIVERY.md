@@ -18,7 +18,7 @@ The Delivery position is the first ATC position that a pilot usually interacts w
 
 In the airspace of Romania, the only such position is at Henri Coanda International Airport, Bucharest - Otopeni. Although this training is specifically written for the Delivery control position, all this theory can also be used for the Ground or Tower control position, where there is no Delivery or Ground.
 
-The main objective that ATC has from the position of Delivery is to issue Clearances. These are used to give instructions to the pilots immediately after take-off until they reach the en-route system.
+The main objective of the Delivery position is to issue Departure Clearances. These are used to give instructions to the pilots immediately after take-off until they reach the en-route system.
 
 The Delivery controller (abbreviated DEL) is the one who verifies the Flight Plan (abbreviated FPL) - a document that the pilot files in the system so that ATC knows where the pilot intends to navigate their aircraft.
 
