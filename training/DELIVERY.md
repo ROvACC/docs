@@ -199,6 +199,50 @@ T7BGD cleared to Frankfurt, via SOKRU1K DEPARTURE, runway 08L, climb FL220, squa
 
 IMX802F cleared to Malmo, via BUKEL1K DEPARTURE, runway 08L, climb FL 240, squawk 3257.
 
-## 5. DCL 
+## 5. DCL (Departure Clearance)
 
-(TO BE ADDED)
+### 5.1. How to connect to DCL?
+
+First of all you need a Hoopie token. In order to get a token you should request one [here on Hoppie page](https://www.hoppie.nl/acars/system/register.html). Follow the steps on the page before proceeding further.
+
+### 5.2. Login in TopSky
+
+![pdc](../../images/PDC-login.png)
+
+TopSky Menu `>>` Setup `>>` CPDLC Setting...
+
+`Login` code is a 4 letter based code. If you are connecting DCL/PDC only, the logon code should be the ICAO designator code of the airport you are controlling.
+
+For example, if you are connecting DCL at Otopeni, the code should be `LROP`.
+
+`Logon code` is your Hoppie token. 
+
+Make sure that the DCL/PDC check box has true value. In the image above, all check boxes are set to true.
+
+To connect you should press the Connect button. The Connect button is available in the menu, only when you are online, connected on VATSIM.
+
+Note: This function shall be used only when the controller is online on VATSIM. This function shall not be used or tested while connected on any Sweatbox servers.
+
+### 5.3. Extra list for free text messages
+
+If a pilot decide to send a DCL request with an additional message, you, as controller are able to see it in the *CPDLC Current Message Window*. To activate it, in the TopSky menu `>>` Tools `>>` CPDLC `>>`  Current Messages...
+
+In general, this kind of extra messages are put by the pilot as a greeting or as a special request when filling the DCL.
+
+### 5.4. DCL request in Departure List
+
+A DCL request will appear as an `R` in the `k` column of the departure list. If the <b style="color:red;">R</b> is read, this means that the pilot put an additional text in the DCL request. You can read this additional message in the *CPDLC Current Message Window*.
+
+To send the DCL, right click on the `R` and check the data. If correct, you can send by clicking on the <u>**Send DCL**</u> button.
+
+After the pilot is replying, the clearance checkbox is automatically set to *true*.
+
+
+
+
+
+
+
+
+
+
