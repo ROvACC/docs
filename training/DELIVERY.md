@@ -167,35 +167,23 @@ Departure List is the most representative list that the DEL Controller uses beca
 
 Let’s decode the list columns:
 
-DS - departure stand (the parking position where the aircraft is parked)
-
-K - the clearance checkbox (if not checked than the clearance is not read)
-
-FR - flight rules: I stands for IFR, V stands for VFR
-
-C/S -  call sign
-
-RWY - runway for departure
-
-SID - standard instrument departure identificator
-
-CFL - cleared flight level (or the initial climb)
-
-TYPE - aircraft type (ICAO code), followed by the wake category letter
-
-T - transponder capability: A stands for ModeA/C, S stands for ModeS
-
-ASSR - assigned squawk code
-
-ADEP - departure aerodrome (ICAO code)
-
-ADES - destination airport (ICAO code)
-
-RFL - requested or final level in the cruise phase of the flight
-
-C - type of communication (/v - voice only, /r - the pilot can receive voice, but will reply via text, /t - text only)
-
-ACST - aircraft status (or ground status)
+| Column | Meaning | Left click | Right click |
+| :----: | ------- | ---------- | ----------- |
+| DS | departure stand | open stand menu | - |
+| k | clearance checkbox | set clearance received flag | open PDC window |
+| FR | flight rules | - | - |
+| C/S | call sign | open handoff popup menu | toggle route draw |
+| RWY | departure runway | open RWY setup popup list | - |
+| SID | standard instrument departure identificator | open SID setup popup list | - |
+| CFL | cleared flight level | open temporary altitude popup list | - |
+| TYPE | aircraft type (ICAO code), followed by the wake category letter | - | - |
+| T | transponder capability: A stands for ModeA/C, S stands for ModeS | - | - |
+| ASSR | assigned squawk code | auto assign squawk | open SQUAWK popup list |
+| ADEP | departure aerodrome (ICAO code) | open FPL dialog box | - |
+| ADES | destination airport (ICAO code) | - | - |
+| RFL | requested or final level in the cruise phase of the flight | Open final altitude popup list | - |
+| C | type of communication (/v - voice only, /r - the pilot can receive voice, but will reply via text, /t - text only) | open communication type popup | - |
+| ACST | aircraft status (or ground status) | open ground state menu | - |
 
 ## 4. Examples
 
