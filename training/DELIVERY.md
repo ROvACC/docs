@@ -129,7 +129,7 @@ There are 4 operating modes of the transponder:
 1. STBY (stand-by): transponder is off; no signal is send to the radar
 2. ModeA: only the current position is send to the radar
 3. ModeC: the current position and altitude is send to the radar
-4. ModeS: is the most complicated mode, because in addition to ModeC's transmission capability, ModeS can also transmit other data about the aircraft, such as indicated air speed, mach number or fuel on board.
+4. ModeS: is the most complex mode, because in addition to ModeC's transmission capability, ModeS can also transmit other data about the aircraft, such as indicated air speed, mach number or fuel on board.
 
     Note: In addition to the previously mentioned, a ModeS transponder has the ability to automatically correlate the target with the FPL, which means that it is not necessary to use an unique code compared to other aircraft. Thus, capable aircraft will be assigned squawk code 1000.
 
