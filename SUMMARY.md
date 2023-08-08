@@ -16,6 +16,10 @@
   * [LRAR](airports/LRAR.md)
   * [LRBS](airports/LRBS.md)
 
+## Airspace
+  * [Classification](airspace/classification.md)
+  * [Semicircular Rule](airspace/semicircular-rule.md)
+
 ## Phraseology
   * [Ground](phraseology/ground.md)
   * [Tower](phraseology/tower.md)
