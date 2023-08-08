@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Observer Guide · ROvACC Docs</title>
+        <title>Classification · ROvACC Docs</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.6">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="vccs.html" />
+    <link rel="next" href="semicircular-rule.html" />
     
     
-    <link rel="prev" href="update.html" />
+    <link rel="prev" href="../airports/LRBS.html" />
     
 
     </head>
@@ -227,9 +227,9 @@
         
         
     
-        <li class="chapter " data-level="4.1" data-path="../airspace/classification.html">
+        <li class="chapter active" data-level="4.1" data-path="classification.html">
             
-                <a href="../airspace/classification.html">
+                <a href="classification.html">
             
                     
                     Classification
@@ -240,9 +240,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.2" data-path="../airspace/semicircular-rule.html">
+        <li class="chapter " data-level="4.2" data-path="semicircular-rule.html">
             
-                <a href="../airspace/semicircular-rule.html">
+                <a href="semicircular-rule.html">
             
                     
                     Semicircular Rule
@@ -319,9 +319,9 @@
         
         
     
-        <li class="chapter " data-level="6.1" data-path="install.html">
+        <li class="chapter " data-level="6.1" data-path="../euroscope/install.html">
             
-                <a href="install.html">
+                <a href="../euroscope/install.html">
             
                     
                     Install
@@ -332,9 +332,9 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2" data-path="update.html">
+        <li class="chapter " data-level="6.2" data-path="../euroscope/update.html">
             
-                <a href="update.html">
+                <a href="../euroscope/update.html">
             
                     
                     Sector file
@@ -345,9 +345,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="6.3" data-path="observer.html">
+        <li class="chapter " data-level="6.3" data-path="../euroscope/observer.html">
             
-                <a href="observer.html">
+                <a href="../euroscope/observer.html">
             
                     
                     Observer Guide
@@ -358,9 +358,9 @@
             
         </li>
     
-        <li class="chapter " data-level="6.4" data-path="vccs.html">
+        <li class="chapter " data-level="6.4" data-path="../euroscope/vccs.html">
             
-                <a href="vccs.html">
+                <a href="../euroscope/vccs.html">
             
                     
                     VCCS
@@ -623,7 +623,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Observer Guide</a>
+        <a href=".." >Classification</a>
     </h1>
 </div>
 
@@ -638,12 +638,70 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="guide-how-to-connect-as-observer">[Guide] How to connect as observer?</h2>
-<p>As per <a href="https://vatsim.net/docs/policy/code-of-conduct" target="_blank">VATSIM Code of Conduct</a>, users can connect as observers using their abbreviated name, followed by the <strong>_OBS</strong> suffix.</p>
-<p>For example, if your name is Joe Doe, your observer call sign is JD_OBS. However, it is possible that this name is already connected online; To resolve the conflict, use a third letter, representing either your middle name or one of the second letters of your first or last name, such as: JOD_OBS or JDO_OBS. Never connect using ICAO codes of some airports or with special call signs designated for VATSIM staff members.</p>
-<p>See an example in the image below:</p>
-<p><img src="../../images/ES-OBS.png" alt="image"></p>
-<p>Do not forget to delete all ATIS lines because those lines are defined for the last set control position.</p>
+                                <h1 id="ats-airspace-classification">ATS AIRSPACE CLASSIFICATION</h1>
+<p>This document is extracted from the original <em>SERA.6001</em></p>
+<p>Provisions of each class of airspace are described in the following paragraphs:</p>
+<p><code>1.</code> <strong>Class A</strong>. IFR flights only are permitted. All flights are provided with air traffic control service and are separated from each other. Continuous air- ground voice communications are required for all flights. All flights shall be subject to ATC clearance.</p>
+<ul>
+<li>In BUCHAREST FIR Airspace Class A comprises:<ul>
+<li>TMA BUCURESTI</li>
+</ul>
+</li>
+<li>In CHISINAU FIR there is no airspace designated with Class A.</li>
+</ul>
+<p><code>2.</code> <strong>Class B</strong>. IFR and VFR flights are permitted. All flights are provided with air traffic control service and are separated from each other. Continuous air- ground voice communications are required for all flights. All flights shall be subject to ATC clearance.</p>
+<ul>
+<li>In BUCURESTI FIR there is no airspace designated with Class B. </li>
+<li>In CHISINAU FIR there is no airspace designated with Class B.</li>
+</ul>
+<p><code>3.</code> <strong>Class C</strong>.  IFR and VFR flights are permitted. All flights are provided with air traffic control service and IFR flights are separated from other IFR flights and from VFR flights. VFR flights are separated from IFR flights and receive traffic information in respect of other VFR flights and traffic avoidance advice on request. Continuous airground voice communications are required for all flights. For VFR flights a speed limitation of 250 kts indicated airspeed (IAS) applies below 3050 M (10000 FT) AMSL, except where approved by the Romanian CAA for aircraft types, which for technical or safety reasons, cannot maintain this speed. All flights shall be subject to ATC clearance.</p>
+<ul>
+<li>In BUCURESTI FIR Airspace Class C comprises:<ul>
+<li>all ATS routes</li>
+<li>all Aerodrome Control Zones (CTR): Arad, Bacau, Baia Mare, Brasov, Baneasa, Otopeni, Cluj, Constanta, Craiova, Iasi, Oradea, Satu Mare, Sibiu, Suceava, Targu Mures, Timisoara, Tulcea</li>
+<li>TMA ARAD, TMA CONSTANTA, TMA NAPOC</li>
+<li>airspace above FL105. </li>
+</ul>
+</li>
+<li>In CHISINAU FIR Airspace Class C comprises:<ul>
+<li>all ATS routes;</li>
+<li>all CTRs: Chisinau, Marculesti</li>
+<li>TMA CHISINAU</li>
+<li>airspace above 4000 ft AMSL</li>
+</ul>
+</li>
+</ul>
+<p><code>4.</code> <strong>Class D</strong>. IFR and VFR flights are permitted and all flights are provided with air traffic control service. IFR flights are separated from other IFR flights, receive traffic information in respect of VFR flights and traffic avoidance advice on request. VFR flights receive traffic information in respect of all other flights and traffic avoidance advice on request. Continuous air-ground voice communications are required for all flights and a speed limitation of 250 kts IAS applies to all flights below 3050 M (10000 FT) AMSL, except where approved by the Romanian CAA for aircraft types, which for technical or safety reasons, cannot maintain this speed. All flights shall be subject to ATC clearance.</p>
+<ul>
+<li>In BUCURESTI FIR there is no airspace designated with Class D. </li>
+<li>In CHISINAU FIR there is no airspace designated with Class D.</li>
+</ul>
+<p><code>5.</code> <strong>Class E</strong>. IFR and VFR flights are permitted. IFR flights are provided with air traffic control service and are separated from other IFR flights. All flights receive traffic information, as far as is practical. Continuous air-ground voice communications are required for IFR flights. A speed limitation of 250 kts IAS applies to all flights below 3050 M (10000 FT) AMSL, except where approved by the Romanian CAA for aircraft types, which for technical or safety reasons cannot maintain this speed. All IFR flights shall be subject to ATC clearance. Class E shall not be used for control zones.</p>
+<ul>
+<li>In BUCURESTI FIR there is no airspace designated with Class E. </li>
+<li>In CHISINAU FIR there is no airspace designated with Class E.</li>
+</ul>
+<p><code>6.</code> <strong>Class F</strong>. IFR and VFR flights are permitted. All participating IFR flights receive an air traffic advisory service and all flights receive flight information service if requested. Continuous air-ground voice communications are required for IFR flights participating in the advisory service and all IFR flights shall be capable of establishing air ground voice communications. A speed limitation of 250 kts IAS applies to all flights below 3050 M (10000 FT) AMSL, except where approved by the Romanian CAA for aircraft types, which for technical or safety reasons cannot maintain this speed. ATC clearance is not required.</p>
+<ul>
+<li>In BUCURESTI FIR there is no airspace designated with Class F. </li>
+<li>In CHISINAU FIR there is no airspace designated with Class F.</li>
+</ul>
+<p><code>7.</code> <strong>Class G</strong>.  IFR and VFR flights are permitted and receive flight information service if requested. All IFR flights shall be capable of establishing air- ground voice communications. A speed limitation of 250 kts IAS applies to all flights below 3050 M (10000 FT) AMSL, except where approved by the Romanian CAA for aircraft types, which for technical or safety reasons cannot maintain this speed. ATC clearance is not required. </p>
+<ul>
+<li>In BUCURESTI FIR Airspace Class G comprises:<ul>
+<li>airspace outside ATS routes</li>
+<li>airspace not designated with another class (A, C) or as Restricted Areas</li>
+</ul>
+</li>
+<li>In CHISINAU FIR Airspace Class G comprises:<ul>
+<li>airspace below 4000 ft AMSL, where is not designated as Class C</li>
+</ul>
+</li>
+</ul>
+<p>The next image shows the airspace classification within BUCURESTI FIR:</p>
+<p><img src="../../images/airspace-classification-LR.png" alt="alt_text"></p>
+<p>The next image shows the airspace classification within CHISINAU FIR:</p>
+<p><img src="../../images/airspace-classification-LU.png" alt="alt_text"></p>
 
                                 
                                 </section>
@@ -671,12 +729,12 @@
 
             
                 
-                <a href="update.html" class="navigation navigation-prev " aria-label="Previous page: Sector file">
+                <a href="../airports/LRBS.html" class="navigation navigation-prev " aria-label="Previous page: LRBS">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="vccs.html" class="navigation navigation-next " aria-label="Next page: VCCS">
+                <a href="semicircular-rule.html" class="navigation navigation-next " aria-label="Next page: Semicircular Rule">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -687,7 +745,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Observer Guide","level":"6.3","depth":1,"next":{"title":"VCCS","level":"6.4","depth":1,"path":"euroscope/vccs.md","ref":"euroscope/vccs.md","articles":[]},"previous":{"title":"Sector file","level":"6.2","depth":1,"path":"euroscope/update.md","ref":"euroscope/update.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ROvACC Docs","gitbook":"*"},"file":{"path":"euroscope/observer.md","mtime":"2023-08-08T19:07:05.469Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2023-08-08T19:07:06.311Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Classification","level":"4.1","depth":1,"next":{"title":"Semicircular Rule","level":"4.2","depth":1,"path":"airspace/semicircular-rule.md","ref":"airspace/semicircular-rule.md","articles":[]},"previous":{"title":"LRBS","level":"3.2","depth":1,"path":"airports/LRBS.md","ref":"airports/LRBS.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ROvACC Docs","gitbook":"*"},"file":{"path":"airspace/classification.md","mtime":"2023-08-08T19:07:05.469Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2023-08-08T19:07:06.311Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
