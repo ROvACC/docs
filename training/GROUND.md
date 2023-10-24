@@ -30,7 +30,7 @@ It should be mentioned that an aircraft performing the push-back procedure will 
 
 If it is not possible to authorize an airplane to leave the parking position through a push-back procedure, this must be communicated to the pilot in command.
 
-e.g. `standby, traffic behind” or "hold position due traffic`
+e.g. `standby, traffic behind` or `hold position due traffic`
 
 Also, an exit from the parking position can be conditional authorized, as in the following example: `behind Airbus A320 passing left to right, push-back start up approved, QNH 1010` or `behind propeller traffic, push-back approved, facing East, QNH 1010`
 
