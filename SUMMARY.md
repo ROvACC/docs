@@ -29,6 +29,7 @@
 ## EuroScope
   * [Install](euroscope/install.md)
   * [Sector file](euroscope/update.md)
+  * [Sector file - auto](euroscope/auto-updater.md)
   * [Observer Guide](euroscope/observer.md)
   * [VCCS](euroscope/vccs.md)
   
