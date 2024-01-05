@@ -25,7 +25,7 @@
 
 #### How it works?
 
-Every 12 hours, if EuroScope run, it automatically checks if there is any difference between your sector file version and the sector file published from GNG.
+Every 12 hours, if EuroScope runs, it automatically checks if there is any difference between your sector file version and the sector file published from GNG.
 
 If it finds any difference regarding version you'll see a window where the EuroScope will inform you about the availability of a new sector file. It's important to keep your sector file up to date at any time, so push YES. 
 
