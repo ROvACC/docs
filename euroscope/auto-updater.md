@@ -12,7 +12,7 @@
 > Name: ```LRBB AUTO GNG```
 > URL: ```https://files.aero-nav.com/AeroNav_LRBB_by_Aerosoft_NavDataPro.txt```
 8. Push the ```NEW``` button
-9. Now, lookup this new entry in the above list and select it. (It's blue when selected.)
+9. Now, look up this new entry in the above list and select it. (It's blue when selected.)
 10. Now complete the menu with the location of the before created file (You can use the Browse button)
 > Filename: ```[location-to]/Documents/EuroScope/LRBB AUTO GNG/AeroNav_LRBB_by_Aerosoft_NavDataPro.txt```
 ![image][after]
