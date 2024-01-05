@@ -29,7 +29,7 @@ Every 12 hours, if EuroScope runs, it automatically checks if there is any diffe
 
 If it finds any difference regarding version you'll see a window where the EuroScope will inform you about the availability of a new sector file. It's important to keep your sector file up to date at any time, so push YES. 
 
-Thereafter, a new window will appear asking you if you want to change the sector file thru all ASR files. It's mandatory to select YES.
+Thereafter, a new window will appear asking if you want to change the sector file through all ASR files. It's mandatory to select YES.
 
 A third window might ask if you want to delete the old sector file. It's your decision whether you want to keep all .sct and .ese files from the previous versions. (You don't need them to control.)
 
