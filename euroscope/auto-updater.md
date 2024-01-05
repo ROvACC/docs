@@ -31,7 +31,7 @@ If it finds any difference regarding version you'll see a window where the EuroS
 
 Thereafter, a new window will appear asking you if you want to change the sector file thru all ASR files. It's mandatory to select YES.
 
-A third window might appear asking you if you want to delete the old sector file. It's you decision if you want or don't to keep all .sct and .ese files from the previous versions. (You don't need them to control.)
+A third window might ask if you want to delete the old sector file. It's your decision whether you want to keep all .sct and .ese files from the previous versions. (You don't need them to control.)
 
 #### Might want to update manually?
 
