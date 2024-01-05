@@ -24,7 +24,7 @@ The Delivery controller (DEL) is the one who verifies the Flight Plan (FPL) - a 
 
 | Login Call Sign | Call sign | Frequency | ID |
 | :-------------: | :-------: | :-------: | :--: |
-| LROP_DEL | Otopeni Clearance Delivery | 121.950 | DOP |
+| LROP_DEL | Otopeni Clearance Delivery | 121.955 | DOP |
 
 ## 2. IFR Clearance
 

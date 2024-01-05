@@ -57,41 +57,41 @@ In the image above you will notice how the VCCS mini controller looks. It has 3 
 
 | Unit | Code | Call sign | CID | Frequency |
 | :--: | :--: | :-------: | :-: | :-------: |
-| ACC  | LOM | LRBB_L_CTR | LOM | 122.025 |
-| ACC  | ARG | LRBB_A_CTR | ARG |  121.175 |
+| ACC  | LOM | LRBB_L_CTR | LOM | 122.030 |
+| ACC  | ARG | LRBB_A_CTR | ARG |  121.180 |
 | ACC  | NAP | LRBB_N_CTR | NAP |  127.075 |
-| ACC  | UP  | LRBB_U_CTR | LRUP | 132.875 |
+| ACC  | UP  | LRBB_U_CTR | LRUP | 132.865 |
 | | | | | |
-| DIR  | OP  | LROP_F_APP | DIB | 120.600 |
+| DIR  | OP  | LROP_F_APP | DIB | 127.155 |
 | | | | | |
-| APP  | OP  | LROP_APP | APB | 118.250 |
-| APP  | CL  | LRCL_APP | APN | 126.425 |
-| APP  | AR  | LRAR_APP | APA | 127.250 |
-| APP  | CK  | LRCK_APP | APC | 122.900 |
+| APP  | OP  | LROP_APP | APB | 119.415 |
+| APP  | CL  | LRCL_APP | APN | 126.430 |
+| APP  | AR  | LRAR_APP | APA | 123.430 |
+| APP  | CK  | LRCK_APP | APC | 122.905 |
 | | | | | |
-| TWR  | OP  | LROP_TWR | TOP | 120.900 |
-| TWR  | BS  | LRBS_TWR | TBS | 120.800 |
-| TWR  | CL  | LRCL_TWR | TCL | 134.400 |
-| TWR  | TM  | LRTM_TWR | TTM | 120.325 |
-| TWR  | SB  | LRSB_TWR | TSB | 122.700 |
-| TWR  | AR  | LRAR_TWR | TAR | 130.200 |
-| TWR  | TR  | LRTR_TWR | TTR | 120.100 |
-| TWR  | CK  | LRCK_TWR | TCK | 120.450 |
+| TWR  | OP  | LROP_TWR | TOP | 118.805 |
+| TWR  | BS  | LRBS_TWR | TBS | 125.205 |
+| TWR  | CL  | LRCL_TWR | TCL | 118.705 |
+| TWR  | TM  | LRTM_TWR | TTM | 119.180 |
+| TWR  | SB  | LRSB_TWR | TSB | 121.305 |
+| TWR  | AR  | LRAR_TWR | TAR | 118.230 |
+| TWR  | TR  | LRTR_TWR | TTR | 120.105 |
+| TWR  | CK  | LRCK_TWR | TCK | 124.030 |
 | | | | | |
-| TWR  | SM  | LRSM_TWR | TSM | 118.800 |
-| TWR  | BM  | LRBM_TWR | TBM | 118.100 |
-| TWR  | SV  | LRSV_TWR | TSV | 118.300 |
-| TWR  | OD  | LROD_TWR | TOD | 120.200 |
-| TWR  | CV  | LRCV_TWR | TCV | 124.300 |
-| TWR  | BC  | LRBC_TWR | TBC | 118.600 |
-| TWR  | IA  | LRIA_TWR | TIA | 119.200 |
-| TWR  | TC  | LRTC_TWR | TTC | 120.300 |
+| TWR  | SM  | LRSM_TWR | TSM | 119.655 |
+| TWR  | BM  | LRBM_TWR | TBM | 118.855 |
+| TWR  | SV  | LRSV_TWR | TSV | 129.955 |
+| TWR  | OD  | LROD_TWR | TOD | 118.455 |
+| TWR  | CV  | LRCV_TWR | TCV | 129.530 |
+| TWR  | BC  | LRBC_TWR | TBC | 120.980 |
+| TWR  | IA  | LRIA_TWR | TIA | 119.955 |
+| TWR  | TC  | LRTC_TWR | TTC | 119.755 |
 | | | | | |
-| GND  | OP  | LROP_GND | GOP | 121.700 |
-| GND  | BS  | LRBS_GND | GBS | 120.800 |
+| GND  | OP  | LROP_GND | GOP | 121.855 |
+| GND  | BS  | LRBS_GND | GBS | 129.950 |
 | GND  | TR  | LRTR_GND | GTR | 121.600 |
 | | | | | |
-| DEL  | OP  | LROP_DEL | DOP | 120.950 |
+| DEL  | OP  | LROP_DEL | DOP | 120.955 |
 
 #### External Coordination Code Descriptor
 
@@ -100,7 +100,7 @@ In the image above you will notice how the VCCS mini controller looks. It has 3 
 | Unit | Code | Call sign | CID | Frequency |
 | :--: | :--: | :-------: | :-: | :-------: | 
 | ADR | E | ADR_E_CTR | ADE | 130.550 |
-| ADR | U | ADR_U_CTR | ADU | 130.975 |
+| ADR | U | ADR_U_CTR | ADU | 130.750 |
 | ADR | Full | ADR_CTR | ADR | 130.000 |
 | ACC | LYBA | LYBA_CTR | BEO | 123.775 |
 | APP | LYBE | LYBE_APP | ABE | 133.100 |
@@ -116,19 +116,20 @@ In the image above you will notice how the VCCS mini controller looks. It has 3 
 | TWR | LUKK | LUKK_TWR | TKK | 118.100 |
 | GND | LUKK | LUKK_GND | GKK | 121.800 |
 | | | | | |
-| ACC | BUU | LHCC_U_CTR | BUU | 127.100 |
-| ACC | BUN | LHCC_N_CTR | BUN | 118.725 |
-| ACC | BU1 | LHCC_1_CTR | BU1 | 135.550 |
+| ACC | BUU | LHCC_U_CTR | BUU | 133.535 |
+| ACC | BUN | LHCC_N_CTR | BUN | 135.555 |
+| ACC | BU1 | LHCC_1_CTR | BU1 | 132.790 |
 | ACC | BU | LHCC_CTR | BU | 120.975 |
-| ACC | BUK | LHCC_K_CTR | BUK | 128.950 |
-| ACC | BU2 | LHCC_2_CTR | BU2 | 135.200 |
+| ACC | BUK | LHCC_K_CTR | BUK | 127.860 |
+| ACC | BU2 | LHCC_2_CTR | BU2 | 135.205 |
 | | | | | |
 | ACC | LVV | UKLV_CTR | LVV | 134.050 |
 | ACC | KYV | UKBV_CTR | KYV | 135.150 |
 | ACC | ODS | UKOV_CTR | ODS | 132.200 |
 | UKR | Full | UKR_CTR | UKR | 123.475 |
 | | | | | |
-| EURE | FSS | EURE_FSS | ECE | 135.300 |
+| EUC | SW | EUC-SW_CTR | ESW | 135.500 |
+| EUC | EN | EUC-EN_CTR | EEN | 135.300 |
 
 ## Principles
 
