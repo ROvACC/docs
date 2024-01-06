@@ -16,11 +16,11 @@ Frequencies
 
   LRBS\_GND         Baneasa Ground       129.950
 
-  LRBS\_TWR         Baneasa Tower        120.800
+  LRBS\_TWR         Baneasa Tower        125.205
 
-  LROP\_APP         Bucharest Approach   118.250
+  LROP\_APP         Bucharest Approach   119.415
 
-  LROP\_F\_APP      Bucharest Director   120.600
+  LROP\_F\_APP      Bucharest Director   127.855
 
   LRBS\_ATIS        Baneasa ATIS         126.125
   ----------------- -------------------- -----------

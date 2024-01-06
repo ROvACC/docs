@@ -10,9 +10,9 @@ Arad Airport, while being an international one, is not an airport regularly oper
 
 | Login Call sign  | CID  | Call sign        | Frequency  |
 |------------------|------|------------------|------------|
-| LRAR_TWR         | TAR  | Arad Tower       | 130.200    |
-| LRAR_APP         | APA  | Arad Approach    | 127.250    |
-| LRBB_L_CTR       | LOM  | Bucharest Radar  | 122.025    |
+| LRAR_TWR         | TAR  | Arad Tower       | 118.230    |
+| LRAR_APP         | APA  | Arad Approach    | 123.530    |
+| LRBB_L_CTR       | LOM  | Bucharest Radar  | 122.030    |
 
 ## Area of Responsibility
 
