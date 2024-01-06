@@ -17,11 +17,11 @@ Frequencies
 
 | Login Call sign | Call sign                  | Frequency |
 |-----------------|----------------------------|-----------|
-| LROP_DEL        | Otopeni Clearance Delivery | 121.950   |
-| LROP_GND        | Otopeni Ground             | 121.700   |
-| LROP_TWR        | Otopeni Tower              | 120.900   |
-| LROP_APP        | Bucharest Approach         | 118.250   |
-| LROP_F_APP      | Bucharest Director(*)      | 120.600   |
+| LROP_DEL        | Otopeni Clearance Delivery | 121.955   |
+| LROP_GND        | Otopeni Ground             | 121.855   |
+| LROP_TWR        | Otopeni Tower              | 118.805   |
+| LROP_APP        | Bucharest Approach         | 119.415   |
+| LROP_F_APP      | Bucharest Director(*)      | 127.855   |
 | LROP_ATIS       | Otopeni ATIS               | 118.500   |
 
 Area of Responsability
