@@ -28,7 +28,7 @@ The Delivery controller (DEL) is the one who verifies the Flight Plan (FPL) - a 
 
 ## 2. IFR Clearance
 
-Clearance is the authorization by which the pilot is informed about the point to which he is authorised to fly, the runway for take-off, the route they will follow until the route system, the level or altitude at which they will initially or finally follow and a squawk code.
+Clearance is the authorization by which the pilot is informed about the point to which the plane is authorised to fly, the runway for take-off, the route they will follow until the route system, the level or altitude at which they will initially or finally climb and a squawk code.
 
 ### 2.1. Clearance limit
 
@@ -52,11 +52,11 @@ The aircraft is flying IFR to BUKEL then VFR, so it’s YFR:
 
 ### 2.2. Departure Procedure (SID)
 
-Departure Procedure is a standard procedure that connects the runway to the en-route system, where the planes fly or climb towards the cruise phase. These routes are called SID (Standard Instrument Departure). These routes are the most common ways by which an aircraft can receive permission to fly in the terminal area or immediately after taking off.
+Departure Procedure is a standard procedure that connects the runway to the en-route system, where the planes fly or climb towards the cruise phase. These routes are called SID (Standard Instrument Departure). These routes are the most common ways by which an aircraft can receive permission to fly in the terminal area or immediately after departure.
 
-A SID has as its last point the first point in the flight plan.
+Tipically, a SID has as its last point the first point in the flight plan.
 
-SIDs are of two types: RNAV (area navigation) and standard. The difference between the two types is the way in which it is navigated: if in the first case, RNAV, we are talking about GPS navigation, with clearly established points that the aircraft follow in flight, in standard navigation, stations located on the ground, called navigation aids, are used through which the aircraft (and its systems) must identify at what distance it is from a certain aid and in which direction to fly in order to intercept certain predefined directions in the standard SID procedures.
+SIDs are of two types: **RNAV** (area navigation) and standard. The difference between the two types is the way in which it is navigated: if in the first case, RNAV, we are talking about GPS navigation, with clearly established points that the aircraft follow in flight, in standard navigation, stations located on the ground, called navigation aids, are used through which the aircraft (and its systems) must identify at what distance it is from a certain aid and in which direction to fly in order to intercept certain predefined directions in the standard SID procedures.
 
 As a conclusion, the major difference between the RNAV SID compared to the standard SID is the accuracy of the positioning of the aircraft in flight. That is why RNAV SID procedures are preferred in Romanian airspace where they exist. If RNAV SID are not available at an airport (such as LRCK), then standard procedures are used. 
 
@@ -88,7 +88,7 @@ If the DEL controller does not find a suitable SID for the flight (according to 
 
 <p style="color:green;">LROP_APP: Released, on runway heading, climb 4000 ft
 
-Notes: since the aircraft takes off from Otopeni and flies to Baneasa, an airport located in the same TMA and at a very short distance, a SID cannot be assigned. In this case, the DEL controller coordinates with LROP_APP (Bucharest Approach) the take-off instructions which, later, the DEL controller will include in the clearance of the aircraft.
+Notes: since the aircraft takes off from Otopeni and flies to Baneasa, an airport located in the same TMA and at a very short distance, a SID cannot be assigned. In this case, the DEL controller coordinates with LROP_APP (Bucharest Approach) the departure instructions which, later, the DEL controller will include in the clearance of the aircraft.
 
 If the APP or ACC unit is not online, this coordination will not take place, and the pilot will receive instructions from the DEL Controller as follows:
 
@@ -104,7 +104,9 @@ As a general rule, for separation, two planes flying on the same SID and taking 
 
 A practical example: flights from LROP via SOKRU and via BUKEL. The first plane flying to SOKRU climbs to FL280, the second plane flying to SOKRU climbs to FL260, the third plane flying to SOKRU climbs to FL240 and so on. After that, the first plane flying towards BUKEL (being another flow) will climb to FL280, the second towards BUKEL will climb to FL260 and so on. 
 
-An already used flight level becomes available when the aircraft to which that level was assigned no longer appears in the Departure List, i.e. it has taken off.
+An aircraft might have the final requested level less than FL280 or FL270. This means, you will not clear the traffic to climb further than requested in the Flight Plan.
+
+An already used flight level becomes available when the aircraft to which that level was assigned no longer appears in the Departure List, i.e. it has departed.
 
 It should be noted that during the initial climb authorization (at clearance), the flight level or the altitude to which the pilot is cleared to climb must not exceed the flight level or the altitude that the pilot intends to maintain during the cruise phase of the flight.
 
@@ -150,9 +152,9 @@ Note: the code is automatically given by EuroScope for IFR flights after pressin
 
 #### 1. VFR traffic pattern
 
-VFR traffic pattern is the flight that is performed around a runway, being the simplest training for new pilots, but also a maintenance exercise for old pilots, consisting of a "rectangle" around the runway, through which the pilot practices take-off, 4 90 degree turns on the same side and a landing.
+VFR traffic pattern is the flight that is performed around a runway, being the simplest training for new pilots, but also a maintenance exercise for old pilots, consisting of a "rectangle" around the runway, through which the pilot practices take-off, four 90 degree turns on the same side (named *hands*) and a landing.
 
-For this type of flight, ATC DEL is responsible to transmit to the pilot the runway from which he will take off and execute the traffic pattern, the direction they will turn (left or right), the altitude to climb to, as well as a squawk code.
+For this type of flight, ATC DEL is responsible to transmit to the pilot the runway from which they will take off and execute the traffic pattern, the direction they will turn (left or right), the altitude to climb to, as well as a squawk code.
 
 #### 2. Cross country flight
 
@@ -236,13 +238,3 @@ A DCL request will appear as an `R` in the `k` column of the departure list. If 
 To send the DCL, right click on the `R` and check the data. If correct, you can send by clicking on the <u>**Send DCL**</u> button.
 
 After the pilot is replying, the clearance checkbox is automatically set to *true*.
-
-
-
-
-
-
-
-
-
-
