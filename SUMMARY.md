@@ -22,6 +22,10 @@
   * [Semicircular Rule](airspace/semicircular-rule.md)
 
 ## Visual LoAs
+  * [FLAS ACC - Arad](loa/acc-apa.md)
+  * [FLAS ACC - Bucuresti](loa/acc-apb.md)
+  * [FLAS ACC - Constanta](loa/acc-apc.md)
+  * [FLAS ACC - NAPOC](loa/acc-apn.md)
   * [FLAS ACC - Bacau](loa/acc-tbc.md)
   * [FLAS ACC - Iasi](loa/acc-tia.md)
   * [FLAS ACC - Suceava](loa/acc-tsv.md)
