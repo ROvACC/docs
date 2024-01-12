@@ -784,6 +784,24 @@
 <h2 id="1-position-overview">1. Position overview</h2>
 <p>In this guide, we aim to define the role and service that the Ground controller (abbreviated as GND) has in aviation safety. If there is no Delivery control position at the respective airport, Ground is responsible for authorizing the flights as a DEL controller does.</p>
 <p>When we talk about the GND controller, this is the one that authorizes the aircraft to move on the taxiways and platforms (or aprons). </p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Login Call Sign</th>
+<th style="text-align:center">Call sign</th>
+<th style="text-align:center">Frequency</th>
+<th style="text-align:center">ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">LROP_GND</td>
+<td style="text-align:center">Otopeni Ground</td>
+<td style="text-align:center">121.855</td>
+<td style="text-align:center">GOP</td>
+</tr>
+</tbody>
+</table>
 <h2 id="2-push-back--start-up">2. Push-back &amp; Start up:</h2>
 <p>The first such movement is exiting the parking position, which is often done from behind. This means that the GND must authorize the aircraft to leave the parking position, the aircraft being pushed by a special machine, called Tug or Schof. The procedure is called <strong>Push-back</strong>. If this push-back can be executed in more than one way, often, the GND controller must inform the pilot about the direction in which the cockpit (the place where the pilots sit) is to be pointed after the push-back procedure is completed. For example: <code>facing east</code></p>
 <p>In general, the authorization to exit the parking position is done at the same time as the authorization to start the engines. This also comes with the information from the GND controller to the pilot about the local pressure (QNH) found in the latest MET report.</p>
@@ -792,9 +810,10 @@
 <p>If it is not possible to authorize an airplane to leave the parking position through a push-back procedure, this must be communicated to the pilot in command.</p>
 <p>e.g. <code>standby, traffic behind</code> or <code>hold position due traffic</code></p>
 <p>Also, an exit from the parking position can be conditional authorized, as in the following example: <code>behind Airbus A320 passing left to right, push-back start up approved, QNH 1010</code> or <code>behind propeller traffic, push-back approved, facing East, QNH 1010</code></p>
+<p>There may be situations in which some aircraft (such as ATR) can start their engines in the parking position and perform a self push-back procedure carried out with the help of the engines, called <strong>power back</strong>. This procedure does not apply to the parking positions that are in the immediate vicinity of the terminal, due to possible safety problems that could arise during the Power back procedure.</p>
 <p>Some parking positions are specially created and defined as <em>self maneuvering</em>. This means that the pilot will receive from the GND controller the authorization to start engines on the parking position and will go taxiing towards the runway in the forward direction.</p>
 <h2 id="3-taxi">3. Taxi</h2>
-<p>After the push-back procedure has been completed, the pilot is ready to taxi to the runway. They receive instructions from the GND controller regarding the final point to which they are authorized to taxi, as well as the taxiways to follow between the current position and the destination position. The current taxiway often appears in the taxi clearance, and if it is missing, it is mandatory that the aircraft in the forward direction intersects with the first cleared taxiway.</p>
+<p>After the push-back (and start-up) procedure have been completed, the aircraft is ready to taxi to the runway. The pilot will receive instructions from the GND controller regarding the final point to which they are authorized to taxi, as well as the taxiways to follow between the current position and the destination position. The current taxiway often appears in the taxi clearance, and if it is missing, it is mandatory that the aircraft in the forward direction intersects with the first cleared taxiway.</p>
 <p>In general, the pilot is not authorized to leave the yellow centerline when taxiing on the maneuvering area of an airport. Deviations from this rule are clearly specified in the SOP/LOP for each airport or by ATC.</p>
 <p>The final point to which an aircraft is authorized to taxi is often the <strong>holding point</strong>, the point at where the aircraft is before the safety strip of the runway and the point at which the GND controller transfers the communication to the Tower Controller.</p>
 <p>e.g. <code>taxi to holding point runway 08L via C, N</code></p>
@@ -822,7 +841,39 @@
 </li>
 </ol>
 <p>If all these three points are met, then, you can say: <code>CALLSIGN contact [ICAO_TWR] on [xxx.xxx]</code>.</p>
-<h2 id="5-coordination">5. Coordination</h2>
+<h2 id="5-ground-priorities">5. Ground Priorities</h2>
+<h5 id="51-flight-rules-distinction">5.1. Flight Rules Distinction</h5>
+<ul>
+<li><p>Aircraft operating under IFR conditions typically receive priority during taxi operations due to their reliance on precise navigation and air traffic control instructions. This ensures that IFR flights can adhere to their assigned departure or arrival procedures without unnecessary delays.</p>
+</li>
+<li><p>VFR flights, unless categorized as emergency (EMG), do not have priority over IFR traffic on the ground. Ground control provides instructions to VFR flights, coordinating their movements to minimize potential conflicts with IFR operations.</p>
+</li>
+</ul>
+<h5 id="52-departure-dep-and-arrivals-arr-priorities">5.2. Departure (DEP) and Arrivals (ARR) Priorities</h5>
+<ul>
+<li><p>Departing flights continue to receive priority over arriving flights during taxi operations, ensuring a continuous flow of departures and minimizing congestion on runways and taxiways.</p>
+</li>
+<li><p>Arriving flights may be required to yield to departing aircraft, contributing to the efficient sequencing of movements on the ground.</p>
+</li>
+</ul>
+<h5 id="53-aircraft-weight-turbulence-categories">5.3. Aircraft Weight Turbulence Categories</h5>
+<ul>
+<li><p>Medium and heavy aircraft are typically given priority over lighter aircraft during taxi operations. This is due to the larger turning and increased distances required for these larger aircraft to navigate on the ground.</p>
+</li>
+<li><p>Ground control may sequence movements to ensure that heavy aircraft have the necessary space and time to maneuver, minimizing potential conflicts with lighter traffic.</p>
+</li>
+<li><p>While the Wake Turbulence Category (WTC) classifies aircraft based on size and weight, it may not comprehensively account for the broad range of performance variations, especially when comparing aircraft sharing similar WTC classifications. Larger aircraft, like the Airbus A320, featuring jet engines, generally have superior climb capabilities compared to smaller turbo shaft-powered counterparts such as the ATR 72-600. The heightened climb performance of jet-powered aircraft enables them to efficiently navigate through the departure area, reducing their ground time and mitigating the risk of congestion on taxiways and runways.</p>
+</li>
+</ul>
+<h5 id="54-separation-standards">5.4. Separation Standards</h5>
+<ul>
+<li>Ground control ensures that there is sufficient separation between taxiing aircraft to prevent collisions or conflicts. This separation takes into account the different speeds, sizes, and turning capabilities of the aircraft involved.</li>
+</ul>
+<h5 id="55-emergency-and-priority-handling">5.5. Emergency and Priority Handling</h5>
+<ul>
+<li>In the case of emergency or priority situations, such as medical diversions, ground control may adjust the sequence of taxiing aircraft to accommodate these special cases and ensure a swift response.</li>
+</ul>
+<h2 id="6-coordination">6. Coordination</h2>
 <p>GND controller must inform TWR unit if an aircraft is taxiing to a holding point any other holding point that is not at the end of the departure runway.</p>
 
                                 
@@ -867,7 +918,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"S1 - Ground","level":"2.4","depth":1,"next":{"title":"S2 - Tower Controller","level":"2.5","depth":1,"path":"training/STUDENT_2.md","ref":"training/STUDENT_2.md","articles":[]},"previous":{"title":"S1 - Delivery","level":"2.3","depth":1,"path":"training/DELIVERY.md","ref":"training/DELIVERY.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ROvACC Docs","gitbook":"*"},"file":{"path":"training/GROUND.md","mtime":"2024-01-12T22:02:07.549Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2024-01-12T22:02:07.993Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"S1 - Ground","level":"2.4","depth":1,"next":{"title":"S2 - Tower Controller","level":"2.5","depth":1,"path":"training/STUDENT_2.md","ref":"training/STUDENT_2.md","articles":[]},"previous":{"title":"S1 - Delivery","level":"2.3","depth":1,"path":"training/DELIVERY.md","ref":"training/DELIVERY.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ROvACC Docs","gitbook":"*"},"file":{"path":"training/GROUND.md","mtime":"2024-01-12T22:08:40.880Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2024-01-12T22:08:41.318Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
