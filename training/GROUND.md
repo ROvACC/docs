@@ -18,6 +18,10 @@ In this guide, we aim to define the role and service that the Ground controller 
 
 When we talk about the GND controller, this is the one that authorizes the aircraft to move on the taxiways and platforms (or aprons). 
 
+| Login Call Sign | Call sign | Frequency | ID |
+| :-------------: | :-------: | :-------: | :--: |
+| LROP_GND | Otopeni Ground | 121.855 | GOP |
+
 ## 2. Push-back & Start up:
 
 The first such movement is exiting the parking position, which is often done from behind. This means that the GND must authorize the aircraft to leave the parking position, the aircraft being pushed by a special machine, called Tug or Schof. The procedure is called **Push-back**. If this push-back can be executed in more than one way, often, the GND controller must inform the pilot about the direction in which the cockpit (the place where the pilots sit) is to be pointed after the push-back procedure is completed. For example: `facing east`
@@ -34,11 +38,13 @@ e.g. `standby, traffic behind` or `hold position due traffic`
 
 Also, an exit from the parking position can be conditional authorized, as in the following example: `behind Airbus A320 passing left to right, push-back start up approved, QNH 1010` or `behind propeller traffic, push-back approved, facing East, QNH 1010`
 
+There may be situations in which some aircraft (such as ATR) can start their engines in the parking position and perform a self push-back procedure carried out with the help of the engines, called **power back**. This procedure does not apply to the parking positions that are in the immediate vicinity of the terminal, due to possible safety problems that could arise during the Power back procedure.
+
 Some parking positions are specially created and defined as *self maneuvering*. This means that the pilot will receive from the GND controller the authorization to start engines on the parking position and will go taxiing towards the runway in the forward direction.
 
 ## 3. Taxi
 
-After the push-back procedure has been completed, the pilot is ready to taxi to the runway. They receive instructions from the GND controller regarding the final point to which they are authorized to taxi, as well as the taxiways to follow between the current position and the destination position. The current taxiway often appears in the taxi clearance, and if it is missing, it is mandatory that the aircraft in the forward direction intersects with the first cleared taxiway.
+After the push-back (and start-up) procedure have been completed, the aircraft is ready to taxi to the runway. The pilot will receive instructions from the GND controller regarding the final point to which they are authorized to taxi, as well as the taxiways to follow between the current position and the destination position. The current taxiway often appears in the taxi clearance, and if it is missing, it is mandatory that the aircraft in the forward direction intersects with the first cleared taxiway.
 
 In general, the pilot is not authorized to leave the yellow centerline when taxiing on the maneuvering area of an airport. Deviations from this rule are clearly specified in the SOP/LOP for each airport or by ATC.
 
@@ -83,7 +89,37 @@ Transfer of Communication must take place when:
 
 If all these three points are met, then, you can say: ```CALLSIGN contact [ICAO_TWR] on [xxx.xxx]```.
 
-## 5. Coordination
+## 5. Ground Priorities
+
+##### 5.1. Flight Rules Distinction
+
+- Aircraft operating under IFR conditions typically receive priority during taxi operations due to their reliance on precise navigation and air traffic control instructions. This ensures that IFR flights can adhere to their assigned departure or arrival procedures without unnecessary delays.
+
+- VFR flights, unless categorized as emergency (EMG), do not have priority over IFR traffic on the ground. Ground control provides instructions to VFR flights, coordinating their movements to minimize potential conflicts with IFR operations.
+
+##### 5.2. Departure (DEP) and Arrivals (ARR) Priorities
+
+- Departing flights continue to receive priority over arriving flights during taxi operations, ensuring a continuous flow of departures and minimizing congestion on runways and taxiways.
+
+- Arriving flights may be required to yield to departing aircraft, contributing to the efficient sequencing of movements on the ground.
+
+##### 5.3. Aircraft Weight Turbulence Categories
+
+- Medium and heavy aircraft are typically given priority over lighter aircraft during taxi operations. This is due to the larger turning and increased distances required for these larger aircraft to navigate on the ground.
+
+- Ground control may sequence movements to ensure that heavy aircraft have the necessary space and time to maneuver, minimizing potential conflicts with lighter traffic.
+
+- While the Wake Turbulence Category (WTC) classifies aircraft based on size and weight, it may not comprehensively account for the broad range of performance variations, especially when comparing aircraft sharing similar WTC classifications. Larger aircraft, like the Airbus A320, featuring jet engines, generally have superior climb capabilities compared to smaller turbo shaft-powered counterparts such as the ATR 72-600. The heightened climb performance of jet-powered aircraft enables them to efficiently navigate through the departure area, reducing their ground time and mitigating the risk of congestion on taxiways and runways.
+
+##### 5.4. Separation Standards
+
+- Ground control ensures that there is sufficient separation between taxiing aircraft to prevent collisions or conflicts. This separation takes into account the different speeds, sizes, and turning capabilities of the aircraft involved.
+
+##### 5.5. Emergency and Priority Handling
+
+- In the case of emergency or priority situations, such as medical diversions, ground control may adjust the sequence of taxiing aircraft to accommodate these special cases and ensure a swift response.
+
+## 6. Coordination
 
 GND controller must inform TWR unit if an aircraft is taxiing to a holding point any other holding point that is not at the end of the departure runway.
 
