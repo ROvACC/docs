@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>LRAR · ROvACC Docs</title>
+        <title>Aerodrome Report · ROvACC Docs</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.6">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="LRBS.html" />
     
-    
-    <link rel="prev" href="../training/CONTROLLER_1.html" />
+    <link rel="prev" href="decode-metar.html" />
     
 
     </head>
@@ -207,9 +205,9 @@
         
         
     
-        <li class="chapter active" data-level="3.1" data-path="LRAR.html">
+        <li class="chapter " data-level="3.1" data-path="../airports/LRAR.html">
             
-                <a href="LRAR.html">
+                <a href="../airports/LRAR.html">
             
                     
                     LRAR
@@ -220,9 +218,9 @@
             
         </li>
     
-        <li class="chapter " data-level="3.2" data-path="LRBS.html">
+        <li class="chapter " data-level="3.2" data-path="../airports/LRBS.html">
             
-                <a href="LRBS.html">
+                <a href="../airports/LRBS.html">
             
                     
                     LRBS
@@ -704,9 +702,9 @@
         
         
     
-        <li class="chapter " data-level="9.1" data-path="../meteo/decode-metar.html">
+        <li class="chapter " data-level="9.1" data-path="decode-metar.html">
             
-                <a href="../meteo/decode-metar.html">
+                <a href="decode-metar.html">
             
                     
                     METAR
@@ -717,9 +715,9 @@
             
         </li>
     
-        <li class="chapter " data-level="9.2" data-path="../meteo/codification.html">
+        <li class="chapter active" data-level="9.2" data-path="codification.html">
             
-                <a href="../meteo/codification.html">
+                <a href="codification.html">
             
                     
                     Aerodrome Report
@@ -760,7 +758,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >LRAR</a>
+        <a href=".." >Aerodrome Report</a>
     </h1>
 </div>
 
@@ -775,139 +773,851 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="lrar---arad-airport">LRAR - Arad Airport</h1>
-<h2 id="general">General</h2>
-<p>Arad Airport, while being an international one, is not an airport regularly operated by any of the commercial airlines. However, the airport is an important point in air navigation service as it is a provider for control in TMA Arad and soon for the first Virtual Tower in the country.</p>
-<h2 id="frequencies">Frequencies</h2>
+                                <h3 id="report-type">Report Type</h3>
 <table>
 <thead>
 <tr>
-<th>Login Call sign</th>
-<th>CID</th>
-<th>Call sign</th>
-<th>Frequency</th>
+<th>Code</th>
+<th>Meaning</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>LRAR_TWR</td>
-<td>TAR</td>
-<td>Arad Tower</td>
-<td>118.230</td>
+<td>METAR</td>
+<td>Periodic or routine report, generated once an hour or half hour.</td>
 </tr>
 <tr>
-<td>LRAR_APP</td>
-<td>APA</td>
-<td>Arad Approach</td>
-<td>123.530</td>
-</tr>
-<tr>
-<td>LRBB_L_CTR</td>
-<td>LOM</td>
-<td>Bucharest Radar</td>
-<td>122.030</td>
+<td>SPECI</td>
+<td>Special report issued when conditions have significantly changed.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="area-of-responsibility">Area of Responsibility</h2>
-<p>TWR is responsible for air traffic service on runway 09/27 and Arad Control Zone, taxiways and aprons. TWR issues clearances, both IFR and VFR.</p>
-<p>APP is responsible for air traffic service in TMA ARAD, classified as Class C Airspace, where both IFR and VFR are allowed to fly.</p>
-<h2 id="area-charts">Area charts</h2>
-<h2 id="runway-operations">Runway operations</h2>
-<p>The airport has one runway: 09/27.</p>
+<h3 id="speed-unit">Speed Unit</h3>
 <table>
 <thead>
 <tr>
-<th>Config</th>
-<th>Runway Config</th>
-<th>Preferred</th>
+<th>Code</th>
+<th>Meaning</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>1</td>
-<td>27 DEP/09 ARR</td>
-<td>YES</td>
+<td>KT</td>
+<td>Knots</td>
 </tr>
 <tr>
-<td>2</td>
-<td>09 DEP/ARR</td>
-<td>NO</td>
+<td>MPS</td>
+<td>Metres per second</td>
 </tr>
 <tr>
-<td>3</td>
-<td>27 DEP/ARR</td>
-<td>NO</td>
+<td>KMH</td>
+<td>Kilometres per hour</td>
 </tr>
 </tbody>
 </table>
+<h3 id="length-unit">Length Unit</h3>
 <table>
 <thead>
 <tr>
-<th>Runways</th>
-<th>09</th>
-<th>27</th>
+<th>Code</th>
+<th>Meaning</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Heading</td>
-<td>090</td>
-<td>270</td>
+<td>Metre</td>
+<td>Metre, standard unit</td>
 </tr>
 <tr>
-<td>Length</td>
-<td>2000 m</td>
-<td>2000 m</td>
+<td>Foot</td>
+<td>Foot, used by FAA for RVR</td>
+</tr>
+<tr>
+<td>Mile</td>
+<td>Mile, more formally statute mile, used by FAA</td>
 </tr>
 </tbody>
 </table>
-<h2 id="clearance">Clearance</h2>
-<p>Both RNAV and conventional SIDs are available, but RNAV are highly recommended. Non standard departure shall be coordinated with the APP unit.</p>
-<h2 id="taxi">Taxi</h2>
-<p>Departing and arrived traffic shall be instructed to follow standard taxi routes.</p>
-<p>Arrival Information:</p>
-<ul>
-<li>RWY 27: After landing backtrack, report RWY vacated and taxi via TWY A to APRON.</li>
-<li>RWY 09: After landing report RWY vacated and taxi via TWY A to APRON.</li>
-</ul>
-<p>Departure Information:</p>
-<ul>
-<li>RWY 27: Taxi via TWY A to holding position runway 27</li>
-<li>RWY 09: Taxi via TWY A, enter, backtrack RWY</li>
-</ul>
-<h2 id="stand-assignments">Stand assignments</h2>
+<h3 id="wind-variable-direction">Wind Variable Direction</h3>
 <table>
 <thead>
 <tr>
-<th>APRON</th>
-<th>Stand</th>
-<th>Aircraft</th>
+<th>Field</th>
+<th>Explanation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>APRON 2</td>
-<td>1-2</td>
-<td>Wingspan &lt; 36 m (Code C)</td>
+<td>wvdLeft</td>
+<td>The left extreme of the wind direction in degrees.</td>
 </tr>
 <tr>
-<td>APRON 1</td>
-<td>3-5</td>
-<td>Wingspan &lt; 24 m (Code B)</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Helicopter, GA</td>
+<td>wvdRight</td>
+<td>The right extreme of the wind direction in degrees.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="lvp">LVP</h2>
-<p>Runway 27 is equipped with ILS and is approved for CAT II (RVR greater than 350 m) operations. Runway 27 is approved for LVTO.</p>
-<h2 id="traffic-regulation">Traffic regulation</h2>
-<p>CTR Arad is classified as Class C Airspace where both IFR and VFR are allowed to enter.</p>
-<p>CTR Arad lower limit is the ground level and the upper limit is 2500 ft AMSL (by QNH).</p>
-<p>VFR traffic circuits are allowed at min 1100 ft AMSL (by QNH). VFR traffic could be cleared to climb in TMA only by the APP unit. Coordination between TWR and APP units shall coordinate using the VCCS call.</p>
+<h3 id="wind-speed">Wind Speed</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wsUnit</td>
+<td>Wind speed unit</td>
+</tr>
+<tr>
+<td>wsValue</td>
+<td>Value of the wind speed in the unit.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wind">Wind</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wDirection</td>
+<td>Mean true direction in degrees rounded off to the nearest 10 degrees from which the wind is blowing, when absent the direction is variable.</td>
+</tr>
+<tr>
+<td>wSpeed</td>
+<td>Mean speed of the wind over the 10-minute period immediately preceding the observation.</td>
+</tr>
+<tr>
+<td>wGust</td>
+<td>Maximum gust wind speed if relevant.</td>
+</tr>
+<tr>
+<td>wVariation</td>
+<td>Variable wind direction if relevant.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="visibility-tendency">Visibility Tendency</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Down</td>
+<td>Visibility is decreasing.</td>
+</tr>
+<tr>
+<td>Up</td>
+<td>Visibility is increasing.</td>
+</tr>
+<tr>
+<td>NoChange</td>
+<td>No significant change in visibility.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="visibility-distance">Visibility Distance</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vdUnit</td>
+<td>Distance unit</td>
+</tr>
+<tr>
+<td>vdValue</td>
+<td>Distance value in the unit.</td>
+</tr>
+<tr>
+<td>vdFraction</td>
+<td>Distance fraction in the unit, e.g., (1, 4) for a 1/4.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="runway-designator">Runway Designator</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RunwayDesignator</td>
+<td>Runway designator, 2 digits possibly appended with L(eft), C(entral), or R(ight) for parallel runways.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="extreme-rvr">Extreme RVR</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lower</td>
+<td>Indicates an extreme lower value of runway visual range.</td>
+</tr>
+<tr>
+<td>Higher</td>
+<td>Indicates an extreme higher value of runway visual range.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="runway-visual-range">Runway Visual Range</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>rvrDesignator</td>
+<td>Runway designator.</td>
+</tr>
+<tr>
+<td>rvrMeanVisibility</td>
+<td>Mean visibility in meters.</td>
+</tr>
+<tr>
+<td>rvrOutsideMeasuringRange</td>
+<td>Present only if the RVR values are outside the measuring range of the observing system.</td>
+</tr>
+<tr>
+<td>rvrVisibilityTendency</td>
+<td>Visibility tendency.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="visibility">Visibility</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vPrevailing</td>
+<td>Prevailing horizontal visibility in meters; 9999 indicates visibility over 10 km.</td>
+</tr>
+<tr>
+<td>vLowest</td>
+<td>Lowest visibility if reported.</td>
+</tr>
+<tr>
+<td>vLowestDirection</td>
+<td>Direction of the lowest visibility.</td>
+</tr>
+<tr>
+<td>vRunways</td>
+<td>Visual range for each runway.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="weather-qualifier">Weather Qualifier</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LightWeather</td>
+<td>Light weather.</td>
+</tr>
+<tr>
+<td>HeavyWeather</td>
+<td>Heavy weather.</td>
+</tr>
+<tr>
+<td>InVicinityWeather</td>
+<td>In vicinity, i.e., not on location but within 8000 m.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="weather-descriptor">Weather Descriptor</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shallow</td>
+<td></td>
+</tr>
+<tr>
+<td>Patches</td>
+<td></td>
+</tr>
+<tr>
+<td>Partial</td>
+<td></td>
+</tr>
+<tr>
+<td>Drifting</td>
+<td></td>
+</tr>
+<tr>
+<td>Blowing</td>
+<td></td>
+</tr>
+<tr>
+<td>Showers</td>
+<td></td>
+</tr>
+<tr>
+<td>Thunderstorm</td>
+<td></td>
+</tr>
+<tr>
+<td>Freezing</td>
+</tr>
+</tbody>
+</table>
+<h3 id="weather-phenomenon">Weather Phenomenon</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Drizzle</td>
+<td></td>
+</tr>
+<tr>
+<td>Rain</td>
+<td></td>
+</tr>
+<tr>
+<td>Snow</td>
+<td></td>
+</tr>
+<tr>
+<td>SnowGrains</td>
+<td></td>
+</tr>
+<tr>
+<td>IceCrystals</td>
+<td></td>
+</tr>
+<tr>
+<td>IcePellets</td>
+<td></td>
+</tr>
+<tr>
+<td>Hail</td>
+<td></td>
+</tr>
+<tr>
+<td>SmallHail</td>
+<td></td>
+</tr>
+<tr>
+<td>UnknownPrecipitation</td>
+<td></td>
+</tr>
+<tr>
+<td>Mist</td>
+<td>Visibility &gt; 1000 m.</td>
+</tr>
+<tr>
+<td>Fog</td>
+<td>Visibility &lt; 1000 m.</td>
+</tr>
+<tr>
+<td>Smoke</td>
+<td></td>
+</tr>
+<tr>
+<td>VolcanicAsh</td>
+<td></td>
+</tr>
+<tr>
+<td>WidespreadDust</td>
+<td></td>
+</tr>
+<tr>
+<td>Sand</td>
+<td></td>
+</tr>
+<tr>
+<td>Haze</td>
+<td></td>
+</tr>
+<tr>
+<td>Spray</td>
+<td></td>
+</tr>
+<tr>
+<td>Dust</td>
+<td>Well-developed dust/sand whirls.</td>
+</tr>
+<tr>
+<td>Squall</td>
+<td></td>
+</tr>
+<tr>
+<td>FunnelCloud</td>
+<td>Tornado, waterspout are always +FC, i.e., heavy FunnelCloud.</td>
+</tr>
+<tr>
+<td>Sandstorm</td>
+<td></td>
+</tr>
+<tr>
+<td>DustStorm</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cloud-type">Cloud Type</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cumulonimbus</td>
+<td></td>
+</tr>
+<tr>
+<td>ToweringCumulus</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cloud-amount-type">Cloud Amount Type</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Few</td>
+<td>Few amount of clouds.</td>
+</tr>
+<tr>
+<td>Scattered</td>
+<td>Scattered amount of clouds.</td>
+</tr>
+<tr>
+<td>Broken</td>
+<td>Broken amount of clouds.</td>
+</tr>
+<tr>
+<td>Overcast</td>
+<td>Overcast amount of clouds.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cloud-amount">Cloud Amount</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>caType</td>
+<td>Type of cloud amount.</td>
+</tr>
+<tr>
+<td>caHeight</td>
+<td>Height of cloud base in hundreds of feet.</td>
+</tr>
+<tr>
+<td>clType</td>
+<td>Type of clouds if relevant.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vertical-visibility">Vertical Visibility</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vvExtent</td>
+<td>Extent of vertical visibility in hundreds of feet above field elevation.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="no-cloud-observed">No Cloud Observed</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NoCloudBelow1500</td>
+<td>No clouds observed below 1500 feet.</td>
+</tr>
+<tr>
+<td>NoCloudBelow3600</td>
+<td>No clouds observed below 3600 feet.</td>
+</tr>
+<tr>
+<td>SkyClear</td>
+<td>Sky clear; no clouds observed.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="clouds">Clouds</h3>
+<table>
+<thead>
+<tr>
+<th>Variant</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CloudAmounts</td>
+<td>Cloud amount observations.</td>
+</tr>
+<tr>
+<td>ObscuredSky</td>
+<td>Obscured sky observations.</td>
+</tr>
+<tr>
+<td>NoneObserved</td>
+<td>No clouds observed conditions.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pressure-unit">Pressure Unit</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hpa</td>
+<td>hPa (standard).</td>
+</tr>
+<tr>
+<td>InchesHg</td>
+<td>inches of mercury (US)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pressure">Pressure</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pUnit</td>
+<td>Pressure unit.</td>
+</tr>
+<tr>
+<td>pValue</td>
+<td>Pressure value.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="report-modifiers">Report Modifiers</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reportCorrected</td>
+<td>Whether the report was corrected.</td>
+</tr>
+<tr>
+<td>reportAuto</td>
+<td>Whether the report contains fully automated observations without human intervention.</td>
+</tr>
+<tr>
+<td>reportMissed</td>
+<td>Whether the report corresponds to a missing report.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="aerodrome-report">Aerodrome Report</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reportType</td>
+<td>Type of the report.</td>
+</tr>
+<tr>
+<td>reportModifiers</td>
+<td>Modifiers (cor, auto, nil).</td>
+</tr>
+<tr>
+<td>reportStation</td>
+<td>ICAO code for the observing station (an aerodrome).</td>
+</tr>
+<tr>
+<td>reportDate</td>
+<td>When the observation was made.</td>
+</tr>
+<tr>
+<td>reportWind</td>
+<td>Wind related observations.</td>
+</tr>
+<tr>
+<td>reportVisibility</td>
+<td>Visibility related observations.</td>
+</tr>
+<tr>
+<td>reportWeather</td>
+<td>Weather related observations.</td>
+</tr>
+<tr>
+<td>reportClouds</td>
+<td>Clouds related observations.</td>
+</tr>
+<tr>
+<td>reportTemperature</td>
+<td>Temperature rounded to nearest whole degree Celsius.</td>
+</tr>
+<tr>
+<td>reportDewPoint</td>
+<td>Dew point rounded to nearest whole degree Celsius.</td>
+</tr>
+<tr>
+<td>reportPressure</td>
+<td>Mean sea level pressure (&#x201C;QNH&#x201D;).</td>
+</tr>
+<tr>
+<td>reportRemarks</td>
+<td>Report components and miscellaneous abbreviations.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="weather-descriptor">Weather Descriptor</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MI</td>
+<td>Shallow</td>
+</tr>
+<tr>
+<td>BC</td>
+<td>Patches</td>
+</tr>
+<tr>
+<td>PR</td>
+<td>Partial</td>
+</tr>
+<tr>
+<td>DR</td>
+<td>Drifting</td>
+</tr>
+<tr>
+<td>BL</td>
+<td>Blowing</td>
+</tr>
+<tr>
+<td>SH</td>
+<td>Showers</td>
+</tr>
+<tr>
+<td>TS</td>
+<td>Thunderstorm</td>
+</tr>
+<tr>
+<td>FZ</td>
+<td>Freezing</td>
+</tr>
+</tbody>
+</table>
+<h3 id="weather-phenomenon">Weather Phenomenon</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DZ</td>
+<td>Drizzle</td>
+</tr>
+<tr>
+<td>RA</td>
+<td>Rain</td>
+</tr>
+<tr>
+<td>SN</td>
+<td>Snow</td>
+</tr>
+<tr>
+<td>SG</td>
+<td>SnowGrains</td>
+</tr>
+<tr>
+<td>IC</td>
+<td>IceCrystals</td>
+</tr>
+<tr>
+<td>PL</td>
+<td>IcePellets</td>
+</tr>
+<tr>
+<td>GR</td>
+<td>Hail</td>
+</tr>
+<tr>
+<td>GS</td>
+<td>SmallHail</td>
+</tr>
+<tr>
+<td>UP</td>
+<td>UnknownPrecipitation</td>
+</tr>
+<tr>
+<td>BR</td>
+<td>Mist</td>
+</tr>
+<tr>
+<td>FG</td>
+<td>Fog</td>
+</tr>
+<tr>
+<td>FU</td>
+<td>Smoke</td>
+</tr>
+<tr>
+<td>VA</td>
+<td>VolcanicAsh</td>
+</tr>
+<tr>
+<td>DU</td>
+<td>WidespreadDust</td>
+</tr>
+<tr>
+<td>SA</td>
+<td>Sand</td>
+</tr>
+<tr>
+<td>HZ</td>
+<td>Haze</td>
+</tr>
+<tr>
+<td>PY</td>
+<td>Spray</td>
+</tr>
+<tr>
+<td>PO</td>
+<td>Dust</td>
+</tr>
+<tr>
+<td>SQ</td>
+<td>Squall</td>
+</tr>
+<tr>
+<td>FC</td>
+<td>FunnelCloud</td>
+</tr>
+<tr>
+<td>SS</td>
+<td>Sandstorm</td>
+</tr>
+<tr>
+<td>DS</td>
+<td>DustStorm</td>
+</tr>
+</tbody>
+</table>
+<h3 id="clarity-sky">Clarity Sky</h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NSC</td>
+<td>NoneObserved NoCloudBelow1500</td>
+</tr>
+<tr>
+<td>NCD</td>
+<td>NoneObserved SkyClear</td>
+</tr>
+<tr>
+<td>CLR</td>
+<td>NoneObserved NoCloudBelow3600</td>
+</tr>
+<tr>
+<td>SKC</td>
+<td>NoneObserved SkyClear</td>
+</tr>
+</tbody>
+</table>
 
                                 
                                 </section>
@@ -935,14 +1645,10 @@
 
             
                 
-                <a href="../training/CONTROLLER_1.html" class="navigation navigation-prev " aria-label="Previous page: C1 - Enroute Controller">
+                <a href="decode-metar.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: METAR">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="LRBS.html" class="navigation navigation-next " aria-label="Next page: LRBS">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -951,7 +1657,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"LRAR","level":"3.1","depth":1,"next":{"title":"LRBS","level":"3.2","depth":1,"path":"airports/LRBS.md","ref":"airports/LRBS.md","articles":[]},"previous":{"title":"C1 - Enroute Controller","level":"2.7","depth":1,"path":"training/CONTROLLER_1.md","ref":"training/CONTROLLER_1.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ROvACC Docs","gitbook":"*"},"file":{"path":"airports/LRAR.md","mtime":"2024-01-12T21:36:14.445Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2024-01-12T21:36:15.062Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Aerodrome Report","level":"9.2","depth":1,"previous":{"title":"METAR","level":"9.1","depth":1,"path":"meteo/decode-metar.md","ref":"meteo/decode-metar.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ROvACC Docs","gitbook":"*"},"file":{"path":"meteo/codification.md","mtime":"2024-01-12T21:36:14.617Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2024-01-12T21:36:15.062Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
