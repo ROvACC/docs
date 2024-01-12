@@ -5,11 +5,9 @@
 In VATSIM Romania, vATCOs use EuroScope to control.
 
 Here are the steps you must follow to install EuroScope:
-* Download the base files from the [official website](https://www.euroscope.hu/install/EuroScopeSetup32.msi) (instant download).
+* Download the base files from the [official website](https://euroscope.hu/install/EuroScopeSetup.3.2.4.msi) (instant download) -**v3.2c**.
 
 After downloading the MSI file, run it and install EuroScope like any other program you want to install. It is preferable to keep the standard installation path.
-
-* Download the latest beta version from the [official website](https://www.euroscope.hu/install/EuroScopeBeta32a34.zip) (instant download).
 
 Unzip this archive in the place where you installed the EuroScope base files earlier. By default, it should be in ```Program Files x86/EuroScope```.
 
