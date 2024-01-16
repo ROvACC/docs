@@ -83,7 +83,7 @@ e.g. `give way to Airbus A320 coming from right to left` (the aircraft must stop
 Transfer of Communication must take place when:
 1. The aircraft is approaching holding position.
 
-2. When the aircraft if **conflict-free**
+2. When the aircraft is **conflict-free**
 
 3. When you no longer have to give instructions to that aircraft.
 
