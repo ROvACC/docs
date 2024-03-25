@@ -16,6 +16,7 @@
 ## Airports
   * [LRAR](airports/LRAR.md)
   * [LRBS](airports/LRBS.md)
+  * [LRTR](airports/LRTR.md)
 
 ## Airspace
   * [Classification](airspace/classification.md)
