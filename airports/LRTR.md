@@ -9,6 +9,8 @@ General
 - RWY ELEV = 13 hPa
 - TA = 9000 ft
 
+![image](../../images/LRTR_AIRPORT.png)
+
 - **Transition Level**
 
 | QNH | TRL |
@@ -62,6 +64,7 @@ De-icing            on stand or taxiway
 
 Taxi
 ----
+
 Standard taxi routes should be used at any time.
 
 - Arrivals
@@ -158,9 +161,8 @@ Stand assignments
 - Stands 02-03 are used by aircraft with length < 35 m
 - Stand 08 is used by aircraft with wing span greater than 36m, such as Airbus A310 or Boeing 767.
 - Stands 09-14 are considered isolated stands.
-- Stands 01-03 are used by domestic flights
-- Stands 01-03 are mainly used by ROT, HYS, RYR
-- Stands 04-06 are mainly used by DLH, AUA, WZZ
+- Stands 01-03 are mainly used by domestic flights (ROT, HYS, RYR)
+- Stands 04-06 are mainly used by international flights (DLH, AUA, WZZ) 
 - Cargo planes shall be parked at Stand 07 or 08 (if wing span > 36 m) or 09-10
 - Stands 13-14 might be used by domestic flights, if Stands 01-03 are occupied.
 - TWY A, TWY B and TWY L are designated holding areas for arriving aircraft if no parking positions are available on the apron.
@@ -178,3 +180,9 @@ Traffic regulation
 - VFR traffic might be allowed to climb in TMA ARAD, only with a pre-coordinated TWR-APP approval.
 - In general, traffic pattern is executed at 1000 ft AGL (by QFE) or 1400 ft AMSL (by QNH).
 - On request, TWR shall be able to issue clearances on reported QFE pressure.
+
+**   **
+
+Last update: 2024-03-25
+
+**   **
