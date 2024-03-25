@@ -9,14 +9,14 @@ General
 - RWY ELEV = 13 hPa
 - TA = 9000 ft
 
-![image](../../images/LRTR_AIRPORT.png)
-
 - **Transition Level**
 
 | QNH | TRL |
 | :---: | :---: |
 | < 1013.25 | 110 |
 | > 1013.25 | 100 |
+
+![image](../../images/LRTR_AIRPORT.png)
 
 Frequencies
 -----------
