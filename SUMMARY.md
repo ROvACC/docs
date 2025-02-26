@@ -6,7 +6,7 @@
 
 ## Training
   * [VATSIM Docs](training/vatsim.md)
-  * [Career](training/CAREER.md)
+  * [Training Procedure](training/RTP.md)
   * [S1 - Delivery](training/DELIVERY.md)
   * [S1 - Ground](training/GROUND.md)
   * [S2 - Tower](training/TOWER.md)
